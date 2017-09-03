@@ -1,0 +1,103 @@
+# Thing types
+
+2005	Weapon		Gauntlets of the Necromancer
+2001	Weapon		Ethereal Crossbow
+ 53	Weapon		Dragon Claw
+2004	Weapon*		Hellstaff
+2003	Weapon*		Phoenix Rod
+2002	Weapon*		Mace
+ 10	Ammo  		Wand Crystal		(Elven Wand - light)
+ 12	Ammo  		Wand Geode 		(Elven Wand - heavy)
+ 18	Ammo  		Ethereal Arrows		(Crossbow - light)
+ 19	Ammo  		Ethereal Quiver		(Crossbow - heavy)
+ 54	Ammo  		Claw Orb                (Dragon Claw - light)
+ 55	Ammo            Energy Orb 		(Dragon Claw - heavy)
+ 20	Ammo*		Lesser Runes 		(Hellstaff - light)
+ 21	Ammo* 		Greater Runes 		(Hellstaff - heavy)
+ 22	Ammo* 		Flame Orb 		(Phoenix Rod - light)
+ 23	Ammo* 		Inferno Orb	 	(Phoenix Rod - heavy)
+ 13	Ammo* 		Mace Spheres 		(Mace - light)
+ 16	Ammo* 		Pile of Mace Spheres	(Mace - heavy)
+  8	Artifact	Bag of Holding
+ 30	Artifact	Morph Ovum
+ 34	Artifact	Time Bomb
+ 23	Artifact	Wings of Wrath
+ 32	Artifact	Mystic Urn (heal all wounds)
+ 82	Artifact	Quartz Flask (heal serious wounds)
+ 81	Artifact	Crystal Vial (heal light wounds)
+ 75	Artifact	Shadowsphere
+ 84	Artifact	Ring of Invulnerability
+ 85	Artifact	Shield1 (Silver)
+ 31	Artifact*	Shield2 (Enchanted)
+ 35	Artifact	Map Scroll (all map)
+ 36	Artifact*	Chaos Device (random teleport)
+ 86	Artifact	Tome of Power
+ 33	Artifact	Torch
+ 79	Artifact	Key Blue
+ 73	Artifact	Key Green
+ 80	Artifact	Key Yellow
+ 44	Blob		Barrel
+ 47	Blob*		Brown Pillar
+ 28	Blob		Chandelier			*NB
+ 76	Blob		Fire Brazier
+ 51	Blob*		Hanging Corpse
+ 94	Blob		Blue Key Statue
+ 95	Blob		Green Key Statue
+ 96	Blob		Yellow Key Statue
+ 48	Blob		Moss1				*NB
+ 49	Blob		Moss2				*NB
+ 27	Blob		Serpent Torch
+ 26	Blob		Hanging Skull 35	 	*NB
+ 25	Blob		Hanging Skull 45	 	*NB
+ 24	Blob		Hanging Skull 60		*NB
+ 17	Blob		Hanging Skull 70	 	*NB
+ 29	Blob		Small Pillar
+ 40	Blob*		Stalactite (large)
+ 39	Blob*		Stalactite (small)
+ 38	Blob		Stalagmite (large)
+ 37	Blob		Stalagmite (small)
+ 87	Blob*		Volcano				*NB
+ 50	Blob		Wall Torch		 	*NB
+2035	Thingy		Pod
+ 43	Thingy		Pod Generator
+ 74	Teleport	Glitter
+ 52	Teleport	Glitter Exit
+ 14	Teleport	Main
+ 66	Monster		Gargoyle
+  5	Monster		Gargoyle Leader
+ 68	Monster		Golem
+ 69	Monster		Golem Ghost
+ 45	Monster		Golem Leader
+ 46	Monster		Golem Leader Ghost
+ 64	Monster		Undead Warrior
+ 65	Monster		Undead Warrior Ghost
+ 15	Monster		Disciple
+ 70	Monster*	Weredragon
+ 90	Monster*	Sabreclaw
+  6	Monster		Ironlich
+  9	Monster*	Maulotaur
+ 92	Monster*	Ophidian
+  7	Monster*	D'Sparil
+ 56	Monster*	D'Sparil Spot
+  1	Start		Player 1
+  2	Start		Player 2
+  3	Start		Player 3
+  4	Start		Player 4
+ 11	Start		Deathmatch
+
+## Map to empty objects (do nothing)
+
+1202	Sound A1 	Waterdrip
+1203	Sound A1	Slow Footsteps
+1204	Sound A1	Heartbeat
+1205	Sound A1	Bells
+1208	Sound A1	Laughter
+1209	Sound A1	Fast Footsteps
+1200	Sound A2*	Scream
+1201	Sound A2*	Squish
+1206	Sound A2*	Growl
+1207	Sound A2*	Magic
+ 42	Sound E1	Wind
+ 41	Sound E2*	Waterfall
+
+
