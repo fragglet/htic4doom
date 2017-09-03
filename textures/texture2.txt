@@ -1,0 +1,75 @@
+;Format of textures:
+;TextureName	Width	Height
+;*	PatchName	Xoffset	Yoffset
+BANNER1     		64	128
+BANNER2     		64	128
+BANNER3     		64	128
+BANNER4     		64	128
+BANNER5     		64	128
+BANNER6     		64	128
+BANNER7     		64	128
+BANNER8     		64	128
+BLUEFRAG    		64	128
+BRWNRCKS    		64	128
+CELTIC      		64	128
+CSTLMOSS    		64	128
+; From MIDGRATE
+GATMETL     		128	128
+*       M1_1            0       0
+GATMETL2    		64	32
+GATMETL3    		64	32
+GATMETL4    		64	64
+GATMETL5    		64	128
+; Moldy walls, based on Doom's STONE3.
+GRNBLOK1    		128	128
+*       W28_7           0       0
+*       W28_6           0       64
+*       W28_7           64      64
+*       W28_6           64      0
+GRNBLOK2    		128	128
+*       W28_7           0       0
+*       W28_6           0       64
+*       W28_7           64      64
+*       W28_6           64      0
+*       SW2_4           37	0
+GRNBLOK3    		128	128
+*       W28_7           0       0
+*       W28_6           0       64
+*       W28_7           64      64
+*       W28_6           64      0
+GRNBLOK4    		128	128
+*       W28_7           0       0
+*       W28_6           0       64
+*       W28_7           64      64
+*       W28_6           64      0
+*       SW2_4           37	0
+; Different mural; we use SKINFACE.
+HORSES1     		256	128
+*       HELL5_1         0       0
+*       HELL5_2         128     0
+LAVA1       		64	128
+LAVAFL1     		64	128
+LAVAFL2     		64	128
+LAVAFL3     		64	128
+; From SP_ROCK2:
+LOOSERCK    		64	128
+*       WALL63_2        0       0
+MOSAIC1     		64	128
+MOSAIC2     		64	128
+MOSAIC3     		64	128
+MOSAIC4     		64	128
+MOSAIC5     		64	128
+ROOTWALL    		128	128
+; These are just Doom's SKY2/SKY3:
+SKY2        		256	128
+*       SKY2            0       0
+SKY3        		256	128
+*       SKY3            0       0
+SQPEB2      		64	128
+STNGLS2     		128	128
+STNGLS3     		128	128
+TRISTON2    		64	128
+WATRWAL1    		64	128
+WATRWAL2    		64	128
+WATRWAL3    		64	128
+;End

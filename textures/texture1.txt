@@ -1,0 +1,127 @@
+;Format of textures:
+;TextureName	Width	Height
+;*	PatchName	Xoffset	Yoffset
+; Equivalent of AASTINKY, from ASHWALL:
+BADPATCH    		64	128
+*       W104_1          0       0
+CHAINMAN    		256	128
+CHAINSD     		64	128
+; Based on STONE2:
+CSTLRCK     		64	128
+*       W28_8           0       64
+*       W28_8           64      0
+; These are all clones of GRAY1/GRAY4, since the patches look
+; appropriately "boxey" to fit.
+CTYSTCI1    		64	128
+*       W33_5           0       0
+*       W33_5           0       64
+CTYSTCI2    		64	128
+*       W31_1           0       0
+*       W33_5           0       64
+CTYSTCI4    		64	128
+*       W33_5           0       0
+*       W31_1           0       64
+; Same thing, but for these we use ICKWALL textures.
+CTYSTUC1    		64	128
+*       WALL71_5        0       0
+*       W33_5           0       64
+CTYSTUC2    		64	128
+*       WALL71_5        0       0
+*       W61_7           0       64
+CTYSTUC3    		64	128
+*       W33_5           0       0
+*       W31_1           0       64
+CTYSTUC4    		64	128
+*       WALL69_9        0       0
+*       WALL71_5        0       64
+CTYSTUC5    		64	128
+*       WALL71_5        0       0
+*       WALL72_5        0       64
+; From MARBFACE:
+DMNMSK      		128	128
+*       MWALL4_1        0       0
+; Based on Doom's EXITDOOR, but stacked:
+DOOREXIT    		64	96
+*	DOOR3_6         0	-48
+*	DOOR3_6         0	0
+; This isn't really "stone" but it's the right color and looks
+; like a door. Mixture of ICKWALL1/ICKDOOR1.
+DOORSTON    		64	128
+*       WALL69_4        0       0
+*       WALL69_4        0       64
+*	WALL70_3	0	56
+; From BIGDOOR6, but we must stack vertically since the patch
+; is too small.
+DOORWOOD    		64	128
+*       DOOR11_1        28      0
+*       DOOR11_1        28      112
+DRIPWALL    		32	128
+; Reuse marble face murals for these. GRSKULL1 is marble wall
+; (MARBLE2) for consistency.
+GRSKULL1    		64	128
+*       MWALL2_1        0       0
+GRSKULL2    		128	128
+*       MWALL4_2        0       0
+GRSKULL3    		128	128
+*       MWALL5_1        0       0
+GRSTNPB     		64	128
+GRSTNPBV    		64	128
+GRSTNPBW    		64	128
+METL1       		64	128
+METL2       		64	128
+MOSSRCK1    		128	128
+OLDSKY2     		256	128
+*       SKY1            0       0
+OLDSKY3     		256	128
+*       SKY1            0       0
+ORNGRAY     		64	100
+; Based on ASHWALL:
+RCKSNMUD    		64	128
+*       W104_1          0       0
+; From Doom's REDWALL.
+REDWALL     		64	128
+*       WALL78_1        0       0
+; From SP_DUDE6:
+SAINT1      		64	128
+*       W108_1          0       0
+SANDSQ2     		64	128
+SKULLSB1    		64	128
+SKULLSB2    		128	128
+; Doom's SKY1:
+SKY1        		256	128
+*       SKY1            0       -8
+SKY5        		256	128
+*       SKY1            0       -8
+; STARBR2 looks quite sandy:
+SNDBLCKS    		128	128
+*       SW15_4          0       0
+*       SW16_4          32      0
+*       SW15_6          64      0
+*       SW16_6          96      0
+SNDCHNKS    		64	128
+SNDPLAIN    		64	128
+SPINE1      		64	128
+SPINE2      		64	128
+SQPEB1      		64	128
+STNGLS1     		128	128
+SW1OFF      		64	128
+SW1ON       		64	128
+SW2OFF      		64	128
+SW2ON       		64	128
+; Concrete textures from GRAYTALL. Add a skull to show that
+; it's a "tombstone":
+TMBSTON1    		64	48
+*	WALL00_1	0	0
+*	SW2_1		21	0
+TMBSTON2    		64	48
+*	WALL00_1	0	0
+TRISTON1    		64	128
+; From MIDBRN1. We don't have Doom II's MIDSPACE.
+WDGAT64     		64	64
+*       DOOR12_1        0       -32
+WEB1_B      		32	128
+WEB1_F      		32	128
+WEB2_B      		32	128
+WEB2_F      		32	128
+WEB3_M      		32	128
+WOODWL      		64	128
