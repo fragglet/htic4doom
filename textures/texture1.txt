@@ -4,8 +4,15 @@
 ; Equivalent of AASTINKY, from ASHWALL:
 BADPATCH    		64	128
 *       W104_1          0       0
+; SKINFACE reused for mural. Maybe something more imaginative
+; could be done here using sprites (like the animation in mall.wad).
 CHAINMAN    		256	128
+*       HELL5_1         0       0
+*       HELL5_2         128     0
+; METAL1 reused here since it's the right color.
 CHAINSD     		64	128
+*       WALL03_7        0       0
+*       WALL03_7        0       64
 ; Based on STONE2:
 CSTLRCK     		64	128
 *       W28_8           0       64
@@ -64,17 +71,36 @@ GRSKULL2    		128	128
 *       MWALL4_2        0       0
 GRSKULL3    		128	128
 *       MWALL5_1        0       0
+; Supposed to be a medievalish stone wall texture, these bricks
+; are at least a similar color. Variants are missing overlays.
 GRSTNPB     		64	128
+*       W28_5           0       0
+*       W28_5           0       64
 GRSTNPBV    		64	128
+*       W28_5           0       0
+*       W28_5           0       64
 GRSTNPBW    		64	128
+*       W28_5           0       0
+*       W28_5           0       64
+; BROWNGRN, to match color of METL2 below.
 METL1       		64	128
+*       WALL62_2        0       0
+; SLADWALL, since it has a similar pattern:
 METL2       		64	128
+*       WLA128_1        0       0
+; STONE3:
 MOSSRCK1    		128	128
+*       W28_7           0       0
+*       W28_6           0       64
+*       W28_7           64      64
+*       W28_6           64      0
 OLDSKY2     		256	128
 *       SKY1            0       0
 OLDSKY3     		256	128
 *       SKY1            0       0
+; GRAYBIG concrete texture:
 ORNGRAY     		64	100
+*       WALL00_1        0       0
 ; Based on ASHWALL:
 RCKSNMUD    		64	128
 *       W104_1          0       0
