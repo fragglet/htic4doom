@@ -1,25 +1,63 @@
 ;Format of textures:
 ;TextureName	Width	Height
 ;*	PatchName	Xoffset	Yoffset
+; We don't have any hanging banner patches to use for these, but
+; at least we can add lights.
+; BANNER1/2 match CSTLRCK.
 BANNER1     		64	128
+*       W28_8           0       0
+*       W28_8           64      0
+*       FLAMP           4       18
+*       FLAMP           38      18
 BANNER2     		64	128
+*       W28_8           0       0
+*       W28_8           64      0
+*       W13_A           7       18
+*       W13_A           41      18
+; BANNER3/4 match GRSTNPB.
 BANNER3     		64	128
+*       W28_8           0       0
+*       W28_8           64      0
+*       FLAMP           4       18
+*       FLAMP           38      18
 BANNER4     		64	128
+*       W28_8           0       0
+*       W28_8           64      0
+*       W13_A           7       18
+*       W13_A           41      18
+; BANNER5/6 match SPINE2.
 BANNER5     		64	128
 BANNER6     		64	128
+; BANNER7/8 match TRISTON1.
 BANNER7     		64	128
 BANNER8     		64	128
+; COMPBLUE:
 BLUEFRAG    		64	128
+*       COMP03_1        0       0
+*       COMP03_2        0       64
+; BROWNHUG. Not rocks, but it is brown.
 BRWNRCKS    		64	128
+*       WALL03_4        0       0
+*       WALL03_4        0       72
+; Grey/brown celtic knot pattern. SKSNAKE1 here.
 CELTIC      		64	128
+*       SNAK7_1         0       0
+; Matches CSTLRCK (variant) with some moss at the bottom.
 CSTLMOSS    		64	128
+*       W28_8           0       0
+*       W28_6           0	64
 ; From MIDGRATE
 GATMETL     		128	128
 *       M1_1            0       0
+; Bits of MIDGRATE/MIDBRN1 taken from different angles:
 GATMETL2    		64	32
+*       DOOR12_1        0       -64
 GATMETL3    		64	32
+*       M1_1            -12       -53
 GATMETL4    		64	64
+*       M1_1            -12     -36
 GATMETL5    		64	128
+*       M1_1            -12       0
 ; Moldy walls, based on Doom's STONE3.
 GRNBLOK1    		128	128
 *       W28_7           0       0
@@ -48,17 +86,48 @@ HORSES1     		256	128
 *       HELL5_1         0       0
 *       HELL5_2         128     0
 LAVA1       		64	128
+; Doom 1 doesn't have anything like waterfall textures, but we can
+; use FIRELAVA patches overlayed to create one.
 LAVAFL1     		64	128
+*       W73A_1          0       0
+*       W73A_2          0       24
+*       W73B_1          0       48
+*       W73A_1          0       72
+*       W73A_2          0       96
+*       W73B_1          0       120
 LAVAFL2     		64	128
+*       W73A_2          0       0
+*       W73B_1          0       24
+*       W73A_1          0       48
+*       W73A_2          0       72
+*       W73B_1          0       96
+*       W73A_1          0       120
 LAVAFL3     		64	128
+*       W73B_1          0       0
+*       W73A_1          0       24
+*       W73A_2          0       48
+*       W73B_1          0       72
+*       W73A_1          0       96
+*       W73A_2          0       120
 ; From SP_ROCK2:
 LOOSERCK    		64	128
 *       WALL63_2        0       0
+; Tile mosaic textures. For now these are just COMPBLUE.
 MOSAIC1     		64	128
+*       COMP03_1        0       0
+*       COMP03_2        0       64
 MOSAIC2     		64	128
+*       COMP03_1        0       0
+*       COMP03_2        0       64
 MOSAIC3     		64	128
+*       COMP03_1        0       0
+*       COMP03_2        0       64
 MOSAIC4     		64	128
+*       COMP03_1        0       0
+*       COMP03_2        0       64
 MOSAIC5     		64	128
+*       COMP03_1        0       0
+*       COMP03_2        0       64
 ROOTWALL    		128	128
 ; These are just Doom's SKY2/SKY3:
 SKY2        		256	128
@@ -66,10 +135,23 @@ SKY2        		256	128
 SKY3        		256	128
 *       SKY3            0       0
 SQPEB2      		64	128
+; Stained glass? Well, how about parts of these sky textures?
 STNGLS2     		128	128
+*	SKY2            -128	0
 STNGLS3     		128	128
+*	SKY3            0	0
 TRISTON2    		64	128
+; Doom 1 doesn't have waterfall textures, but we can overlay
+; this patch from COMPBLUE to give the appearance of movement:
 WATRWAL1    		64	128
+*       COMP03_1        0       0
+*       COMP03_2        0       64
 WATRWAL2    		64	128
+*       COMP03_2        0       -43
+*       COMP03_1        0       21
+*       COMP03_2        0       85
 WATRWAL3    		64	128
+*       COMP03_2        0       -21
+*       COMP03_1        0       43
+*       COMP03_2        0       85
 ;End
