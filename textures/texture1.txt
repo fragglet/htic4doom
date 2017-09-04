@@ -110,9 +110,21 @@ REDWALL     		64	128
 ; From SP_DUDE6:
 SAINT1      		64	128
 *       W108_1          0       0
+; BROWN1. Not really sand-like, but right color+tone:
 SANDSQ2     		64	128
+*       WALL02_2        0       56
+*       WALL02_2        0       0
+; SLADSKUL variant, matches SLADWALL Used for METL2:
 SKULLSB1    		64	128
+*       WLA128_1        0       0
+*       SW2_2           21      20
+; This doesn't really do justice to SKULLSB1, but it does
+; match METL2/SKULLSB1.
 SKULLSB2    		128	128
+*       WLA128_1        0       0
+*       WLA128_1        64      0
+*       FLAMP           81      18
+*       FLAMP           19      18
 ; Doom's SKY1:
 SKY1        		256	128
 *       SKY1            0       -8
@@ -124,7 +136,10 @@ SNDBLCKS    		128	128
 *       SW16_4          32      0
 *       SW15_6          64      0
 *       SW16_6          96      0
+; Further reuse of bits of STARBR2:
 SNDCHNKS    		64	128
+*       SW16_6          0       0
+*       SW16_6          96      0
 SNDPLAIN    		64	128
 SPINE1      		64	128
 SPINE2      		64	128
@@ -145,9 +160,19 @@ TRISTON1    		64	128
 ; From MIDBRN1. We don't have Doom II's MIDSPACE.
 WDGAT64     		64	64
 *       DOOR12_1        0       -32
+; Nothing we can reasonably use for the cobweb textures, but all
+; columns have to have a patch. So just draw a single row of pixels
+; along the top:
 WEB1_B      		32	128
+*       W31_1           0       -63
 WEB1_F      		32	128
+*       W31_1           0       -63
 WEB2_B      		32	128
+*       W31_1           0       -63
 WEB2_F      		32	128
+*       W31_1           0       -63
 WEB3_M      		32	128
+*       W31_1           0       -63
+; From WOOD1:
 WOODWL      		64	128
+*       WALL40_1        -64     0
