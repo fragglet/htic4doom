@@ -1,12 +1,10 @@
 Heretic in many ways a reskin of Doom, completed in a very short
-timeframe in early 1994. What's the minimum amount of work needed to be
-able to play Heretic levels in Doom? This project aims to create a
-minimal compatibility WAD to make Heretic levels playable with
-`doom.wad`.
+timeframe in early 1994.  This project aims to create a minimal
+compatibility WAD to make Heretic levels playable with `doom.wad`.
 
 The main components are:
 
-* Replacement `TEXTURE1`/`TEXTURE2 lumps. These aim to recreate
+* Replacement `TEXTURE1`/`TEXTURE2` lumps. These aim to recreate
   compatible versions of Heretic's wall textures using Doom's texture
   patches. Ideally, for the sake of minimalism no new patches should
   be included unless it proves absolutely necessary.
