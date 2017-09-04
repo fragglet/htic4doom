@@ -15,7 +15,7 @@ CHAINSD     		64	128
 *       WALL03_7        0       64
 ; Based on STONE2:
 CSTLRCK     		64	128
-*       W28_8           0       64
+*       W28_8           0       0
 *       W28_8           64      0
 ; These are all clones of GRAY1/GRAY4, since the patches look
 ; appropriately "boxey" to fit.
