@@ -1,49 +1,101 @@
 # Thing types
 
+## Fundamentals (no change)
+
+  1	Start		Player 1
+  2	Start		Player 2
+  3	Start		Player 3
+  4	Start		Player 4
+ 11	Start		Deathmatch
+
+## Powerups
+
 2005	Weapon		Gauntlets of the Necromancer
+ -> Chainsaw
 2001	Weapon		Ethereal Crossbow
+ -> Shotgun
  53	Weapon		Dragon Claw
+ -> Chaingun
 2004	Weapon*		Hellstaff
+ -> Plasma Rifle
 2003	Weapon*		Phoenix Rod
+ -> Rocket Launcher
 2002	Weapon*		Mace
+ -> BFG9000
  10	Ammo  		Wand Crystal		(Elven Wand - light)
+ -> Ammo clip
  12	Ammo  		Wand Geode 		(Elven Wand - heavy)
+ -> Box of bullets
  18	Ammo  		Ethereal Arrows		(Crossbow - light)
+ -> Shotgun shells
  19	Ammo  		Ethereal Quiver		(Crossbow - heavy)
+ -> Box of shells
  54	Ammo  		Claw Orb                (Dragon Claw - light)
+ -> Ammo clip (again)?
  55	Ammo            Energy Orb 		(Dragon Claw - heavy)
+ -> Box of bullets (again)?
  20	Ammo*		Lesser Runes 		(Hellstaff - light)
+ -> Plasma cells
  21	Ammo* 		Greater Runes 		(Hellstaff - heavy)
+ -> Large plasma cell pack
  22	Ammo* 		Flame Orb 		(Phoenix Rod - light)
+ -> Rocket
  23	Ammo* 		Inferno Orb	 	(Phoenix Rod - heavy)
+ -> Box of rockets
  13	Ammo* 		Mace Spheres 		(Mace - light)
+ -> Plasma cells (again)?
  16	Ammo* 		Pile of Mace Spheres	(Mace - heavy)
+ -> Large plasma cell pack (again)?
   8	Artifact	Bag of Holding
+ -> Backpack full of ammo
+ 32	Artifact	Mystic Urn (heal all wounds)
+ -> Supercharge?
+ 82	Artifact	Quartz Flask (heal serious wounds)
+ -> Medikit
+ 81	Artifact	Crystal Vial (heal light wounds)
+ -> Stimpack
+ 75	Artifact	Shadowsphere
+ -> Partial invis sphere
+ 84	Artifact	Ring of Invulnerability
+ -> Invulnerability sphere
+ 85	Artifact	Shield1 (Silver)
+ -> Green armor vest
+ 31	Artifact*	Shield2 (Enchanted)
+ -> Blue armor vest
+ 35	Artifact	Map Scroll (all map)
+ -> Automap
+ 79	Artifact	Key Blue
+ -> Blue skull key
+ 73	Artifact	Key Green
+ -> Red skull key
+ 80	Artifact	Key Yellow
+ -> Yellow skull key
+
+## Hard to map artifacts
+
  30	Artifact	Morph Ovum
  34	Artifact	Time Bomb
  23	Artifact	Wings of Wrath
- 32	Artifact	Mystic Urn (heal all wounds)
- 82	Artifact	Quartz Flask (heal serious wounds)
- 81	Artifact	Crystal Vial (heal light wounds)
- 75	Artifact	Shadowsphere
- 84	Artifact	Ring of Invulnerability
- 85	Artifact	Shield1 (Silver)
- 31	Artifact*	Shield2 (Enchanted)
- 35	Artifact	Map Scroll (all map)
  36	Artifact*	Chaos Device (random teleport)
  86	Artifact	Tome of Power
  33	Artifact	Torch
- 79	Artifact	Key Blue
- 73	Artifact	Key Green
- 80	Artifact	Key Yellow
+
+## Decorations
+
  44	Blob		Barrel
+ -> Barrel
  47	Blob*		Brown Pillar
+ -> Short green pillar
  28	Blob		Chandelier			*NB
+ -> Candelabra
  76	Blob		Fire Brazier
  51	Blob*		Hanging Corpse
  94	Blob		Blue Key Statue
+ -> Tall blue fire stick
  95	Blob		Green Key Statue
+ -> Tall green fire stick
  96	Blob		Yellow Key Statue
+ -> Tall red fire stick
  48	Blob		Moss1				*NB
  49	Blob		Moss2				*NB
  27	Blob		Serpent Torch
@@ -52,6 +104,7 @@
  24	Blob		Hanging Skull 60		*NB
  17	Blob		Hanging Skull 70	 	*NB
  29	Blob		Small Pillar
+ -> Short red pillar
  40	Blob*		Stalactite (large)
  39	Blob*		Stalactite (small)
  38	Blob		Stalagmite (large)
@@ -63,27 +116,37 @@
  74	Teleport	Glitter
  52	Teleport	Glitter Exit
  14	Teleport	Main
+
+## Monsters
+
  66	Monster		Gargoyle
+ -> Lost Soul?
   5	Monster		Gargoyle Leader
  68	Monster		Golem
+ -> Zombie
  69	Monster		Golem Ghost
  45	Monster		Golem Leader
+ -> Shotgun Guy
  46	Monster		Golem Leader Ghost
  64	Monster		Undead Warrior
+ -> Imp
  65	Monster		Undead Warrior Ghost
  15	Monster		Disciple
+ -> Cacodemon?
  70	Monster*	Weredragon
+ -> Baron?
  90	Monster*	Sabreclaw
+ -> Demon?
   6	Monster		Ironlich
+ -> Cacodemon? But with more hit points
   9	Monster*	Maulotaur
+ -> Baron?
  92	Monster*	Ophidian
+ -> Imp?
   7	Monster*	D'Sparil
+ -> Cyberdemon
  56	Monster*	D'Sparil Spot
-  1	Start		Player 1
-  2	Start		Player 2
-  3	Start		Player 3
-  4	Start		Player 4
- 11	Start		Deathmatch
+ -> Nothing
 
 ## Map to empty objects (do nothing)
 
