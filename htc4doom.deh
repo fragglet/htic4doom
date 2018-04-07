@@ -1,0 +1,112 @@
+Patch File for DeHackEd v3.0
+
+# Note: Use the pound sign ('#') to start comment lines.
+
+Doom version = 21
+Patch format = 6
+
+
+Thing 2 (Trooper)
+ID # = 68
+
+Thing 3 (Sargeant)
+ID # = 45
+
+Thing 12 (Imp)
+ID # = 64
+
+Thing 13 (Demon)
+ID # = 70
+
+Thing 15 (Cacodemon)
+ID # = 15
+
+Thing 16 (Baron of Hell)
+ID # = 70
+
+Thing 19 (Lost Soul)
+ID # = 66
+
+Thing 31 (Barrel)
+ID # = 44
+
+Thing 44 (Green Armor)
+ID # = 85
+
+Thing 45 (Blue Armor)
+ID # = 31
+
+Thing 51 (Yellow Skull Key)
+ID # = 80
+
+Thing 52 (Red Skull Key)
+ID # = 73
+
+Thing 53 (Blue Skull Key)
+ID # = 79
+
+Thing 54 (Stim Pack)
+ID # = 81
+
+Thing 55 (Medical Kit)
+ID # = 82
+
+Thing 56 (Soul Sphere)
+ID # = 32
+
+Thing 57 (Invulnerability)
+ID # = 84
+
+Thing 59 (Blur Sphere)
+ID # = 75
+
+Thing 61 (Computer Map)
+ID # = 35
+
+Thing 64 (Ammo Clip)
+ID # = 10
+
+Thing 65 (Box of Ammo)
+ID # = 12
+
+Thing 66 (Rocket)
+ID # = 22
+
+Thing 67 (Box of Rockets)
+ID # = 23
+
+Thing 68 (Energy Cell)
+ID # = 20
+
+Thing 69 (Energy Pack)
+ID # = 21
+
+Thing 70 (Shells)
+ID # = 18
+
+Thing 71 (Box of Shells)
+ID # = 19
+
+Thing 73 (BFG 9000)
+ID # = 2002
+
+Thing 74 (Chaingun)
+ID # = 53
+
+Thing 84 (Short Gr. Pillar)
+ID # = 47
+
+Thing 86 (Short Red Pillar)
+ID # = 29
+
+Thing 92 (Tall Blue Torch)
+ID # = 94
+
+Thing 93 (Tall Green Torch)
+ID # = 95
+
+Thing 94 (Tall Red Torch)
+ID # = 96
+
+Thing 101 (Candelabra)
+ID # = 28

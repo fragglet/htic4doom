@@ -7,6 +7,7 @@
   3	Start		Player 3
   4	Start		Player 4
  11	Start		Deathmatch
+ 14	Teleport	Main
 
 ## Powerups
 
@@ -114,8 +115,9 @@
 2035	Thingy		Pod
  43	Thingy		Pod Generator
  74	Teleport	Glitter
+ -> None (decorative; maybe recreate the effect somehow)
  52	Teleport	Glitter Exit
- 14	Teleport	Main
+ -> None (decorative; maybe recreate the effect somehow)
 
 ## Monsters
 
