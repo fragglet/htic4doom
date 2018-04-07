@@ -1,66 +1,66 @@
-FLOOR00
-FLOOR01
-FLOOR03
-FLOOR04
-FLOOR05
-FLOOR06
-FLOOR08
-FLOOR09
-FLOOR10
-FLOOR11
-FLOOR12
-FLOOR16
-FLOOR17
-FLOOR18
-FLOOR19
-FLTWAWA1
-FLTWAWA2
-FLTWAWA3
-FLTSLUD1
-FLTSLUD2
-FLTSLUD3
-FLTFLWW1
-FLTFLWW2
-FLTFLWW3
-FLTTELE1
-FLTTELE2
-FLTTELE3
-FLTTELE4
-FLOOR21
-FLOOR22
-FLOOR23
-FLOOR24
-FLOOR25
-FLOOR26
-FLTLAVA1
-FLTLAVA2
-FLTLAVA3
-FLTLAVA4
-FLOOR27
-FLOOR28
-FLOOR29
-FLOOR30
-FLATHUH1
-FLATHUH2
-FLATHUH3
-FLATHUH4
-FLAT500
-FLAT502
-FLAT503
-FLAT504
-FLAT506
-FLAT507
-FLAT508
-FLAT509
-FLAT510
-FLAT512
-FLAT513
-FLOOR07
-FLAT516
-FLAT517
-FLOOR20
-FLAT520
-FLAT521
-FLAT522
-FLAT523
-
+; Heretic flat   =   Doom flat
+FLAT500              FLAT20
+FLAT502              FLAT14
+FLAT503              FLOOR5_4       ; wrong color
+FLAT504              FLAT3
+FLAT506              FLAT1          ; no vines
+FLAT507              FLAT9
+FLAT508              CEIL1_1        ; supposed to be crate?
+FLAT509              FLAT5_7        ; same texture?
+FLAT510              FLAT10
+FLAT512              FLAT5_4
+FLAT513              FLAT1
+FLAT516              FLAT4_8        ; wrong color
+FLAT517              FLAT14         ; bit too dark
+FLAT520              FLOOR4_8
+FLAT521              FLOOR5_1
+FLAT522              FLOOR5_4
+FLAT523              MFLR8_1
+FLATHUH1             LAVA1
+FLATHUH2             LAVA2
+FLATHUH3             LAVA3
+FLATHUH4             LAVA4
+FLOOR00              FLOOR4_8
+FLOOR01              FLAT10
+FLOOR03              MFLR8_1
+FLOOR04              FLOOR0_5
+FLOOR05              FLOOR0_7
+FLOOR06              FLOOR4_1
+FLOOR07              FLAT18
+FLOOR08              CEIL1_2
+FLOOR09              FLOOR1_6
+FLOOR10              FLAT5_2
+FLOOR11              FLOOR3_3
+FLOOR12              FLOOR3_3       ; supposed to be crate?
+FLOOR16              FLAT14
+FLOOR17              FLAT10
+FLOOR18              FLAT1_1        ; wrong color
+FLOOR19              DEM1_6
+FLOOR20              CEIL3_4
+FLOOR21              FLAT22
+FLOOR22              FLAT22
+FLOOR23              FLAT22
+FLOOR24              FLAT22
+FLOOR25              FLOOR5_3
+FLOOR26              FLAT22
+FLOOR27              FLAT5
+FLOOR28              FLOOR4_8
+FLOOR29              FLAT4          ; grating texture appropriate?
+FLOOR30              CEIL5_1
+FLTFLWW1             FWATER1
+FLTFLWW2             FWATER2
+FLTFLWW3             FWATER3
+FLTLAVA1             LAVA1
+FLTLAVA2             LAVA2
+FLTLAVA3             LAVA3
+FLTLAVA4             LAVA4
+FLTSLUD1             NUKAGE1
+FLTSLUD2             NUKAGE2
+FLTSLUD3             NUKAGE3
+FLTTELE1             GATE3
+FLTTELE2             GATE3
+FLTTELE3             GATE3
+FLTTELE4             GATE3
+FLTWAWA1             FWATER1
+FLTWAWA2             FWATER2
+FLTWAWA3             FWATER3
