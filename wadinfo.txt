@@ -1,5 +1,7 @@
 [lumps]
 DEHACKED
+SWITCHES
+ANIMATED
 
 [texture1]
 TEXTURE1
