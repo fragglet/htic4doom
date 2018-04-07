@@ -1,3 +1,9 @@
+[texture1]
+TEXTURE1
+
+[texture2]
+TEXTURE2
+
 [flats]
 FLAT500
 FLAT502
