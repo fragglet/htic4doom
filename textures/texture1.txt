@@ -144,21 +144,23 @@ SNDPLAIN    		64	128
 SPINE1      		64	128
 SPINE2      		64	128
 SQPEB1      		64	128
+*	SW11_1		0	0
+*	SW11_2		32	0
 STNGLS1     		128	128
 ; There are only two types of switch, and both should have
 ; background textures which match METL2.
 SW1OFF      		64	128
 *       WLA128_1        0       0
-*       SW2_7           14      66
+*       SW2_7           14      45
 SW1ON       		64	128
 *       WLA128_1        0       0
-*       SW2_8           14      66
+*       SW2_8           14      45
 SW2OFF      		64	128
 *       WLA128_1        0       0
-*       SW4S0           20      84
+*       SW4S0           20      52
 SW2ON       		64	128
 *       WLA128_1        0       0
-*       SW4S1           20      84
+*       SW4S1           20      52
 ; Concrete textures from GRAYTALL. Add a skull to show that
 ; it's a "tombstone":
 TMBSTON1    		64	48
