@@ -127,10 +127,12 @@ heretic_to_doom = {
 
 	# Barrel -> Barrel:
 	44: replacement(MT_BARREL),
-	# Brown pillar -> Short green pillar
+	# Brown pillar -> Short green pillar:
 	47: replacement(sprite_to_mobj(SPR_COL2)),
-	# Chandelier -> Candelabra     -- TODO: appropriate?
-	28: replacement(sprite_to_mobj(SPR_CBRA)),
+	# Serpent Torch -> Candelabra:
+	27: replacement(sprite_to_mobj(SPR_CBRA)),
+	# Candelabra -> delete (we have no equivalent):
+	28: None,
 	# Fire brazier -> Skull pillar:
 	76: replacement(sprite_to_mobj(SPR_FSKU)),
 	# Hanging corpse -> hanging corpse:
