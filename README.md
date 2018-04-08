@@ -21,7 +21,7 @@ The main components are:
 * Dehacked patch to map `doomednum` for all of Heretic's thing types
   into equivalent thing types found in Doom.
 
-=== Limitations
+### Limitations
 
 The WAD has a number of limitations in practice:
 
