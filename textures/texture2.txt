@@ -50,6 +50,7 @@ CSTLMOSS    		64	128
 GATMETL     		128	128
 *       M1_1            0       0
 ; Bits of MIDGRATE/MIDBRN1 taken from different angles:
+; TODO: GATMETL2/3/4 can bleed into the ground in vanilla
 GATMETL2    		64	32
 *       DOOR12_1        0       -64
 GATMETL3    		64	32
