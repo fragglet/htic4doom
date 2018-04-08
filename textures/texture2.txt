@@ -144,14 +144,14 @@ TRISTON2    		64	128
 ; Doom 1 doesn't have waterfall textures, but we can overlay
 ; this patch from COMPBLUE to give the appearance of movement:
 WATRWAL1    		64	128
-*       COMP03_1        0       0
+*       COMP03_2        0       0
 *       COMP03_2        0       64
 WATRWAL2    		64	128
-*       COMP03_2        0       -43
-*       COMP03_1        0       21
+*       COMP03_2        0       -42
+*       COMP03_2        0       21
 *       COMP03_2        0       85
 WATRWAL3    		64	128
 *       COMP03_2        0       -21
-*       COMP03_1        0       43
-*       COMP03_2        0       85
+*       COMP03_2        0       42
+*       COMP03_2        0       106
 ;End
