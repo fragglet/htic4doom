@@ -39,7 +39,7 @@ CTYSTUC3    		64	128
 *       W33_5           0       0
 *       W31_1           0       64
 CTYSTUC4    		64	128
-*       WALL69_9        0       0
+*       WALL72_7        0       0
 *       WALL71_5        0       64
 CTYSTUC5    		64	128
 *       WALL71_5        0       0
