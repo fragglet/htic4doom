@@ -131,8 +131,10 @@ heretic_to_doom = {
 	47: replacement(sprite_to_mobj(SPR_COL2)),
 	# Chandelier -> Candelabra     -- TODO: appropriate?
 	28: replacement(sprite_to_mobj(SPR_CBRA)),
-###     76	Blob		Fire Brazier -- TODO
-###     51	Blob*		Hanging Corpse
+	# Fire brazier -> Skull pillar:
+	76: replacement(sprite_to_mobj(SPR_FSKU)),
+	# Hanging corpse -> hanging corpse:
+	51: replacement(MT_MISC60),
 	# TODO: Match these to remapped key colors.
 	# Blue key statue -> Tall blue fire stick:
 	94: replacement(sprite_to_mobj(SPR_TBLU)),
@@ -140,13 +142,14 @@ heretic_to_doom = {
 	95: replacement(sprite_to_mobj(SPR_TGRN)),
 	# Yellow key statue -> Tall red fire stick:
 	96: replacement(sprite_to_mobj(SPR_TRED)),
-###     48	Blob		Moss1				*NB
-###     49	Blob		Moss2				*NB
-###     27	Blob		Serpent Torch
-###     26	Blob		Hanging Skull 35	 	*NB
-###     25	Blob		Hanging Skull 45	 	*NB
-###     24	Blob		Hanging Skull 60		*NB
-###     17	Blob		Hanging Skull 70	 	*NB
+	# Hanging moss sprites:
+	48: None,
+	49: None,
+	# Hanging skulls:
+	26: replacement(MT_MISC57),
+	25: replacement(MT_MISC57),
+	24: replacement(MT_MISC57),
+	17: replacement(MT_MISC57),
 	# Small pillar -> Short red pillar:
 	29: replacement(sprite_to_mobj(SPR_COL4)),
 	# Stalactite (large):
