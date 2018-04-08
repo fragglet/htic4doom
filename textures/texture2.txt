@@ -6,23 +6,23 @@
 ; BANNER1/2 match CSTLRCK.
 BANNER1     		64	128
 *       W28_8           0       0
-*       W28_8           64      0
+*       W28_8           0       64
 *       FLAMP           4       18
 *       FLAMP           38      18
 BANNER2     		64	128
 *       W28_8           0       0
-*       W28_8           64      0
+*       W28_8           0       64
 *       W13_A           7       18
 *       W13_A           41      18
 ; BANNER3/4 match GRSTNPB.
 BANNER3     		64	128
 *       W28_8           0       0
-*       W28_8           64      0
+*       W28_8           0       64
 *       FLAMP           4       18
 *       FLAMP           38      18
 BANNER4     		64	128
 *       W28_8           0       0
-*       W28_8           64      0
+*       W28_8           0       64
 *       W13_A           7       18
 *       W13_A           41      18
 ; BANNER5/6 match SPINE2.

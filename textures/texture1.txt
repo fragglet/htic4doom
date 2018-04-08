@@ -16,7 +16,7 @@ CHAINSD     		64	128
 ; Based on STONE2:
 CSTLRCK     		64	128
 *       W28_8           0       0
-*       W28_8           64      0
+*       W28_8           0       64
 ; These are all clones of GRAY1/GRAY4, since the patches look
 ; appropriately "boxey" to fit.
 CTYSTCI1    		64	128
@@ -60,8 +60,8 @@ DOORSTON    		64	128
 ; From BIGDOOR6, but we must stack vertically since the patch
 ; is too small.
 DOORWOOD    		64	128
-*       DOOR11_1        28      0
-*       DOOR11_1        28      112
+*       DOOR11_1        -28     0
+*       DOOR11_1        -28     112
 DRIPWALL    		32	128
 ; Reuse marble face murals for these. GRSKULL1 is marble wall
 ; (MARBLE2) for consistency.
