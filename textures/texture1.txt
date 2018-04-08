@@ -47,10 +47,10 @@ CTYSTUC5    		64	128
 ; From MARBFACE:
 DMNMSK      		128	128
 *       MWALL4_1        0       0
-; Based on Doom's EXITDOOR, but stacked:
+; Based on Doom's EXITDOOR, but the Heretic one is 24 taller:
 DOOREXIT    		64	96
-*	DOOR3_6         0	-48
-*	DOOR3_6         0	0
+*	W17_1		0	0
+*	DOOR3_6         0	24
 ; This isn't really "stone" but it's the right color and looks
 ; like a door. Mixture of ICKWALL1/ICKDOOR1.
 DOORSTON    		64	128
