@@ -139,7 +139,7 @@ SNDBLCKS    		128	128
 ; Further reuse of bits of STARBR2:
 SNDCHNKS    		64	128
 *       SW16_6          0       0
-*       SW16_6          96      0
+*       SW16_6          32      0
 SNDPLAIN    		64	128
 *       WALL02_2        0       56
 *       WALL02_2        0       0
