@@ -127,18 +127,19 @@ heretic_to_doom = {
 
 	# Barrel -> Barrel:
 	44: replacement(MT_BARREL),
-###     47	Blob*		Brown Pillar
-###     -> Short green pillar
-###     28	Blob		Chandelier			*NB
-###     -> Candelabra
-###     76	Blob		Fire Brazier
+	# Brown pillar -> Short green pillar
+	47: replacement(sprite_to_mobj(SPR_COL2)),
+	# Chandelier -> Candelabra     -- TODO: appropriate?
+	28: replacement(sprite_to_mobj(SPR_CBRA)),
+###     76	Blob		Fire Brazier -- TODO
 ###     51	Blob*		Hanging Corpse
-###     94	Blob		Blue Key Statue
-###     -> Tall blue fire stick
-###     95	Blob		Green Key Statue
-###     -> Tall green fire stick
-###     96	Blob		Yellow Key Statue
-###     -> Tall red fire stick
+	# TODO: Match these to remapped key colors.
+	# Blue key statue -> Tall blue fire stick:
+	94: replacement(sprite_to_mobj(SPR_TBLU)),
+	# Green key statue -> Tall green fire stick:
+	95: replacement(sprite_to_mobj(SPR_TGRN)),
+	# Yellow key statue -> Tall red fire stick:
+	96: replacement(sprite_to_mobj(SPR_TRED)),
 ###     48	Blob		Moss1				*NB
 ###     49	Blob		Moss2				*NB
 ###     27	Blob		Serpent Torch
@@ -146,68 +147,136 @@ heretic_to_doom = {
 ###     25	Blob		Hanging Skull 45	 	*NB
 ###     24	Blob		Hanging Skull 60		*NB
 ###     17	Blob		Hanging Skull 70	 	*NB
-###     29	Blob		Small Pillar
-###     -> Short red pillar
-###     40	Blob*		Stalactite (large)
-###     39	Blob*		Stalactite (small)
-###     38	Blob		Stalagmite (large)
-###     37	Blob		Stalagmite (small)
-###     87	Blob*		Volcano				*NB
-###     50	Blob		Wall Torch		 	*NB
-###    2035	Thingy		Pod
-###     43	Thingy		Pod Generator
-###     74	Teleport	Glitter
-###     -> None (decorative; maybe recreate the effect somehow)
-###     52	Teleport	Glitter Exit
-###     -> None (decorative; maybe recreate the effect somehow)
-###    
-###    ## Monsters
-###    
-###     66	Monster		Gargoyle
-###     -> Lost Soul?
-###      5	Monster		Gargoyle Leader
-###     68	Monster		Golem
-###     -> Zombie
-###     69	Monster		Golem Ghost
-###     45	Monster		Golem Leader
-###     -> Shotgun Guy
-###     46	Monster		Golem Leader Ghost
-###     64	Monster		Undead Warrior
-###     -> Imp
-###     65	Monster		Undead Warrior Ghost
-###     15	Monster		Disciple
-###     -> Cacodemon?
-###     70	Monster*	Weredragon
-###     -> Baron?
-###     90	Monster*	Sabreclaw
-###     -> Demon?
-###      6	Monster		Ironlich
-###     -> Cacodemon? But with more hit points
-###      9	Monster*	Maulotaur
-###     -> Baron?
-###     92	Monster*	Ophidian
-###     -> Imp?
-###      7	Monster*	D'Sparil
-###     -> Cyberdemon
-###     56	Monster*	D'Sparil Spot
-###     -> Nothing
-###    
-###    ## Map to empty objects (do nothing)
-###    
-###    1202	Sound A1 	Waterdrip
-###    1203	Sound A1	Slow Footsteps
-###    1204	Sound A1	Heartbeat
-###    1205	Sound A1	Bells
-###    1208	Sound A1	Laughter
-###    1209	Sound A1	Fast Footsteps
-###    1200	Sound A2*	Scream
-###    1201	Sound A2*	Squish
-###    1206	Sound A2*	Growl
-###    1207	Sound A2*	Magic
-###     42	Sound E1	Wind
-###     41	Sound E2*	Waterfall
-###    
-###    
-###    
+	# Small pillar -> Short red pillar:
+	29: replacement(sprite_to_mobj(SPR_COL4)),
+	# Stalactite (large):
+	40: None,
+	# Stalactite (small):
+	39: None,
+	# Stalagmite (large):
+	38: replacement(sprite_to_mobj(SPR_SMIT)),
+	# Stalagmite (small):
+	37: replacement(sprite_to_mobj(SPR_SMIT),
+	                spawnstate=S_STALAG),
+	# Volcano:
+	87: None,
+	# Wall torch -> Small red torch:
+	50: replacement(sprite_to_mobj(SPR_SMRT)),
+	# Pod:
+	2035: None,
+	# Pod generator:
+	43: None,
+	# Teleport glitter:   -- TODO: Recreate using Doom frames?
+	74: None,
+	# Teleport glitter exit:
+	52: None,
+
+	# -- Monsters:
+	# TODO: Adjust hit points/difficulty on these.
+
+	# Gargoyle -> Lost soul:
+	66: replacement(MT_SKULL),
+	# Gargoyle leader -> Lost soul:
+	5: replacement(MT_SKULL),
+	# Golem -> Zombieman:
+	68: replacement(MT_POSSESSED),
+	# Golem Ghost -> Zombieman:   -- TODO: Invis
+	69: replacement(MT_POSSESSED),
+	# Golem Leader -> Shotgun guy
+	45: replacement(MT_SHOTGUY),
+	# Golem Leader ghost -> Shotgun guy -- TODO: Invis
+	46: replacement(MT_SHOTGUY),
+	# Undead Warrior -> Imp:
+	64: replacement(MT_TROOP),
+	# Undead Warrior Ghost -> Imp:  -- TODO: Invis
+	65: replacement(MT_TROOP),
+	# Disciple -> Cacodemon:
+	15: replacement(MT_HEAD),
+	# Weredragon -> Baron:
+	70: replacement(MT_BRUISER),
+	# Sabreclaw -> Demon:
+	90: replacement(MT_SERGEANT),
+	# Iron lich -> Cacodemon:
+	6: replacement(MT_HEAD),
+	# Maulotaur -> Baron:
+	9: replacement(MT_BRUISER),
+	# Ophidian -> Imp:
+	92: replacement(MT_TROOP),
+	# D'Sparil -> Cyberdemon:
+	7: replacement(MT_CYBORG),
+	# D'Sparil Spot:
+	56: None,
+
+	# Atmospheric sound objects:
+	1200: None,
+	1201: None,
+	1202: None,
+	1203: None,
+	1204: None,
+	1205: None,
+	1206: None,
+	1207: None,
+	1208: None,
+	1209: None,
+	41: None,
+	42: None,
 }
+
+# Build reverse mapping table.
+doom_to_heretics = {}
+for heretic, vals in heretic_to_doom.items():
+	if vals is not None:
+		doom, _ = vals
+		doom_to_heretics.setdefault(doom, set()).add(heretic)
+
+# Identify all objects with a doomednum (ie. can be placed via the editor).
+# This is our working space of objects we will change.
+placeable_objects = {mobjtype for mobjtype, mobj in enumerate(mobjinfo)
+                     if mobj.doomednum >= 0}
+
+# We need to assign Heretic objects to Doom ones, but in some cases multiple
+# Heretic objects map to the same Doom object. We want to keep affinity so
+# that (1) when there is a 1:1 mapping of h->d, d will be used for h;
+# (2) when there is a N:1 mapping of [h]->d, one of h will be used for d.
+
+# Do a first pass through doom_to_heretics of assigning a single Heretic
+# object for each Doom one. This will ensure affinity.
+for doom, heretics in doom_to_heretics.items():
+	heretic = sorted(heretics)[0]
+	_, overrides = heretic_to_doom[heretic]
+	print("clearing %d" % (mobjinfo[doom].doomednum))
+	mobjinfo[doom].update(overrides)
+	mobjinfo[doom].doomednum = heretic
+	heretics.remove(heretic)
+	placeable_objects.remove(doom)
+
+# Now do a second pass assigning all remaining suplicates.
+for doom, heretics in doom_to_heretics.items():
+	for heretic in heretics:
+		_, overrides = heretic_to_doom[heretic]
+		mobjnum = placeable_objects.pop()
+		print("clearing %d" % (mobjinfo[mobjnum].doomednum))
+		mobjinfo[mobjnum].copy_from(mobjinfo[doom].original)
+		mobjinfo[mobjnum].update(overrides)
+		mobjinfo[mobjnum].doomednum = heretic
+
+# Go through and assign special object types for all the "Nones":
+for heretic, vals in heretic_to_doom.items():
+	if vals is None:
+		mobjnum = placeable_objects.pop()
+		print("clearing %d" % (mobjinfo[mobjnum].doomednum))
+		mobjinfo[mobjnum].update({
+			'spawnstate': S_NULL,
+			'doomednum': heretic,
+		})
+
+# We have some leftover objects which haven't been assigned to any Heretic
+# object. To ensure their doomednums don't clash with Heretic ones, set
+# them all to -1.
+for mobjnum in placeable_objects:
+	print("clearing %d" % (mobjinfo[mobjnum].doomednum))
+	mobjinfo[mobjnum].doomednum = -1
+
+dehfile.save("htc4doom.deh")
+
 
