@@ -6,29 +6,46 @@
 # Doom thing types. Some of these are more difficult than others, and
 # in some cases we have to duplicate things.
 
+from __future__ import print_function
 from deh9000 import *
+
+def sprite_to_mobj(sprite_num):
+	"""Given a sprite used by a single mobj, get that mobj."""
+	mobjtypes = set()
+	for mobjtype, mobj in enumerate(mobjinfo):
+		sprites = set()
+		for statenum in dehfile.mobj_states(mobjtype):
+			sprites.add(states[statenum].sprite)
+		if sprite_num in sprites:
+			mobjtypes.add(mobjtype)
+	if len(mobjtypes) != 1:
+		raise ValueError('want one mobj type for sprite %d, '
+		                 'got multiple: %r' % (
+			sprite_num, mobjtypes,
+		))
+	return list(mobjtypes)[0]
 
 def replacement(thing_type, **kwargs):
 	return (thing_type, kwargs)
 
-things = {
+heretic_to_doom = {
 	# Teleport exit:
 	14: replacement(MT_TELEPORTMAN),
 
 	# -- Weapons:
 
 	# Gauntlets of the Necromancer -> Chainsaw:
-	2005: replacement(MT_MISC26),
+	2005: replacement(sprite_to_mobj(SPR_CSAW)),
 	# Ethereal Crossbow -> Shotgun:
-	2001: replacement(MT_SHOTGUN),
+	2001: replacement(sprite_to_mobj(SPR_SHOT)),
 	# Dragon Claw -> Chaingun:
-	53: replacement(MT_CHAINGUN),
+	53: replacement(sprite_to_mobj(SPR_MGUN)),
 	# Hellstaff -> Plasma Rifle:
-	2004: replacement(MT_MISC28),
+	2004: replacement(sprite_to_mobj(SPR_PLAS)),
 	# Phoenix Rod -> Rocket Launcher:
-	2003: replacement(MT_MISC27),
+	2003: replacement(sprite_to_mobj(SPR_LAUN)),
 	# Mace -> BFG9000:
-	2002: replacement(MT_MISC25),
+	2002: replacement(sprite_to_mobj(SPR_BFUG)),
 
 	# -- Ammo:
 	# Heretic has more ammo types than Doom has, so some of these
@@ -36,59 +53,59 @@ things = {
 	# substitutions listed above.
 
 	# Wand Crystal -> Ammo clip:           [Wand]
-	10: replacement(MT_CLIP),
+	10: replacement(sprite_to_mobj(SPR_CLIP)),
 	# Wand Geode -> Box of bullets:
-	12: replacement(MT_MISC17),
+	12: replacement(sprite_to_mobj(SPR_AMMO)),
 	# Ethereal Arrows -> Shotgun shells:   [Ethereal Crossbow]
-	18: replacement(MT_MISC22),
+	18: replacement(sprite_to_mobj(SPR_SHEL)),
 	# Ethereal Quiver -> Box of shells:
-	19: replacement(MT_MISC23),
+	19: replacement(sprite_to_mobj(SPR_SBOX)),
 	# Claw Orb -> Ammo clip:               [Dragon claw]
-	54: replacement(MT_CLIP),
+	54: replacement(sprite_to_mobj(SPR_CLIP)),
 	# Energy Orb -> Box of bullets:
-	55: replacement(MT_MISC17),
+	55: replacement(sprite_to_mobj(SPR_AMMO)),
 	# Lesser Runes -> Plasma cell:         [Hellstaff]
-	20: replacement(MT_MISC20),
+	20: replacement(sprite_to_mobj(SPR_CELL)),
 	# Greater Runes -> Plasma pack:
-	21: replacement(MT_MISC21),
+	21: replacement(sprite_to_mobj(SPR_CELP)),
 	# Flame orb -> Rocket:                 [Phoenix rod]
-	22: replacement(MT_MISC18),
+	22: replacement(sprite_to_mobj(SPR_ROCK)),
 	# Inferno orb -> Box of rockets:
-	23: replacement(MT_MISC19),
+	23: replacement(sprite_to_mobj(SPR_BROK)),
 	# Mace spheres -> Plasma cell:         [Mace]
-	13: replacement(MT_MISC20),
+	13: replacement(sprite_to_mobj(SPR_CELL)),
 	# Pile of mace spheres -> Plasma pack:
-	16: replacement(MT_MISC21),
+	16: replacement(sprite_to_mobj(SPR_CELP)),
 	# Bag of holding -> Backpack
-	8: replacement(MT_MISC24),
+	8: replacement(sprite_to_mobj(SPR_BPAK)),
 
 	# -- Powerups:
 
 	# Mystic urn -> Supercharge:
-	32: replacement(MT_MISC12),
+	32: replacement(sprite_to_mobj(SPR_SOUL)),
 	# Quartz Flask -> Medikit:
-	82: replacement(MT_MISC11),
+	82: replacement(sprite_to_mobj(SPR_MEDI)),
 	# Crystal vial -> Stimpack:
-	81: replacement(MT_MISC10),
+	81: replacement(sprite_to_mobj(SPR_STIM)),
 	# Shadowsphere -> Partial invisibility:
-	75: replacement(MT_MISC16),
+	75: replacement(sprite_to_mobj(SPR_PINS)),
 	# Ring of invulnerability -> Invulnerability:
-	84: replacement(MT_INV),
+	84: replacement(sprite_to_mobj(SPR_PINV)),
 	# Silver shield -> Green armor:
-	85: replacement(MT_MISC0),
+	85: replacement(sprite_to_mobj(SPR_ARM1)),
 	# Enchanted shield -> Blue armor:
-	31: replacement(MT_MISC1),
+	31: replacement(sprite_to_mobj(SPR_ARM2)),
 	# Map scroll -> Automap:
-	35: replacement(MT_MISC15),
+	35: replacement(sprite_to_mobj(SPR_PMAP)),
 
 	# -- Keys:
 
 	# Blue key -> Blue skull key:
-	79: replacement(MT_MISC9),
+	79: replacement(sprite_to_mobj(SPR_BSKU)),
 	# Green key -> Red skull key:
-	73: replacement(MT_MISC8),
+	73: replacement(sprite_to_mobj(SPR_RSKU)),
 	# Yellow key -> Yellow skull key:
-	80: replacement(MT_MISC7),
+	80: replacement(sprite_to_mobj(SPR_YSKU)),
 
 
 	# -- Hard to map artifacts
