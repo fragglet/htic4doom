@@ -86,6 +86,7 @@ HORSES1     		256	128
 *       HELL5_1         0       0
 *       HELL5_2         128     0
 LAVA1       		64	128
+*	W104_1		0	0
 ; Doom 1 doesn't have anything like waterfall textures, but we can
 ; use FIRELAVA patches overlayed to create one.
 LAVAFL1     		64	128
@@ -135,6 +136,8 @@ SKY2        		256	128
 SKY3        		256	128
 *       SKY3            0       0
 SQPEB2      		64	128
+*	SW11_4		0	0
+*	SW11_5		32	0
 ; Stained glass? Well, how about parts of these sky textures?
 STNGLS2     		128	128
 *	SKY2            -128	0
