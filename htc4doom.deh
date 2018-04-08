@@ -266,22 +266,22 @@ Height = 4456448
 Bits = 768
 
 Thing 47
-ID # = 23
-Initial frame = 45
-Bits = 0
-
-Thing 48
 ID # = 30
 Initial frame = 45
 Bits = 0
 
-Thing 49
+Thing 48
 ID # = 33
 Initial frame = 45
 Bits = 0
 
-Thing 50
+Thing 49
 ID # = 34
+Initial frame = 45
+Bits = 0
+
+Thing 50
+ID # = 36
 Initial frame = 45
 Bits = 0
 
@@ -307,7 +307,7 @@ Thing 57
 ID # = 84
 
 Thing 58
-ID # = 36
+ID # = 39
 Initial frame = 45
 Bits = 0
 
@@ -315,7 +315,7 @@ Thing 59
 ID # = 75
 
 Thing 60
-ID # = 39
+ID # = 40
 Initial frame = 45
 Bits = 0
 
@@ -323,12 +323,12 @@ Thing 61
 ID # = 35
 
 Thing 62
-ID # = 40
+ID # = 41
 Initial frame = 45
 Bits = 0
 
 Thing 63
-ID # = 41
+ID # = 42
 Initial frame = 45
 Bits = 0
 
@@ -342,9 +342,7 @@ Thing 66
 ID # = 22
 
 Thing 67
-ID # = 42
-Initial frame = 45
-Bits = 0
+ID # = 23
 
 Thing 68
 ID # = 13
@@ -401,17 +399,17 @@ Thing 86
 ID # = 29
 
 Thing 87
-ID # = 86
+ID # = 83
 Initial frame = 45
 Bits = 0
 
 Thing 88
-ID # = 87
+ID # = 86
 Initial frame = 45
 Bits = 0
 
 Thing 89
-ID # = 1200
+ID # = 87
 Initial frame = 45
 Bits = 0
 
@@ -419,7 +417,7 @@ Thing 90
 ID # = 76
 
 Thing 91
-ID # = 1201
+ID # = 1200
 Initial frame = 45
 Bits = 0
 
@@ -433,12 +431,12 @@ Thing 94
 ID # = 96
 
 Thing 95
-ID # = 1202
+ID # = 1201
 Initial frame = 45
 Bits = 0
 
 Thing 96
-ID # = 1203
+ID # = 1202
 Initial frame = 45
 Bits = 0
 
@@ -450,44 +448,46 @@ ID # = 37
 Initial frame = 887
 
 Thing 99
-ID # = 1204
+ID # = 1203
 Initial frame = 45
 Bits = 0
 
 Thing 100
-ID # = 1205
+ID # = 1204
 Initial frame = 45
 
 Thing 101
 ID # = 28
 
 Thing 102
-ID # = 1206
+ID # = 1205
 Initial frame = 45
 Bits = 0
 
 Thing 103
-ID # = 1207
+ID # = 1206
 Initial frame = 45
 Bits = 0
 
 Thing 104
-ID # = 1208
+ID # = 1207
 Initial frame = 45
 Bits = 0
 
 Thing 105
-ID # = 1209
+ID # = 1208
 Initial frame = 45
 Bits = 0
 
 Thing 106
-ID # = 2035
+ID # = 1209
 Initial frame = 45
 Bits = 0
 
 Thing 107
-ID # = -1
+ID # = 2035
+Initial frame = 45
+Bits = 0
 
 Thing 108
 ID # = 17

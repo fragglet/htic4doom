@@ -112,13 +112,13 @@ heretic_to_doom = {
 	#
 	#     30	Artifact	Morph Ovum
 	#     34	Artifact	Time Bomb
-	#     23	Artifact	Wings of Wrath
+	#     83	Artifact	Wings of Wrath
 	#     36	Artifact*	Chaos Device (random teleport)
 	#     86	Artifact	Tome of Power
 	#     33	Artifact	Torch
 	30: None,
 	34: None,
-	23: None,
+	83: None,
 	36: None,
 	86: None,
 	33: None,
