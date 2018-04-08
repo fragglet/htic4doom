@@ -249,7 +249,6 @@ placeable_objects = {mobjtype for mobjtype, mobj in enumerate(mobjinfo)
 for doom, heretics in doom_to_heretics.items():
 	heretic = sorted(heretics)[0]
 	_, overrides = heretic_to_doom[heretic]
-	print("clearing %d" % (mobjinfo[doom].doomednum))
 	mobjinfo[doom].update(overrides)
 	mobjinfo[doom].doomednum = heretic
 	heretics.remove(heretic)
@@ -260,7 +259,6 @@ for doom, heretics in doom_to_heretics.items():
 	for heretic in heretics:
 		_, overrides = heretic_to_doom[heretic]
 		mobjnum = placeable_objects.pop()
-		print("clearing %d" % (mobjinfo[mobjnum].doomednum))
 		mobjinfo[mobjnum].copy_from(mobjinfo[doom].original)
 		mobjinfo[mobjnum].update(overrides)
 		mobjinfo[mobjnum].doomednum = heretic
@@ -279,7 +277,6 @@ states[null_state].update({
 for heretic, vals in heretic_to_doom.items():
 	if vals is None:
 		mobjnum = placeable_objects.pop()
-		print("clearing %d" % (mobjinfo[mobjnum].doomednum))
 		mobjinfo[mobjnum].update({
 			'spawnstate': null_state,
 			'flags': 0,
@@ -290,7 +287,6 @@ for heretic, vals in heretic_to_doom.items():
 # object. To ensure their doomednums don't clash with Heretic ones, set
 # them all to -1.
 for mobjnum in placeable_objects:
-	print("clearing %d" % (mobjinfo[mobjnum].doomednum))
 	mobjinfo[mobjnum].doomednum = -1
 
 dehfile.save("htc4doom.deh")
