@@ -263,13 +263,24 @@ for doom, heretics in doom_to_heretics.items():
 		mobjinfo[mobjnum].update(overrides)
 		mobjinfo[mobjnum].doomednum = heretic
 
-# Go through and assign special object types for all the "Nones":
+# Some Heretic objects are marked as "None" which means we just want these
+# objects to not appear in game. To make this happen we create a "null
+# state" that lasts 1 tic before jumping directly to S_NULL which deletes
+# the object.
+null_state = list(dehfile.reclaim_states(1))[0]
+states[null_state].update({
+	'tics': 1,
+	'sprite': SPR_TFOG,
+	'frame': 6,
+	'nextstate': S_NULL,
+})
 for heretic, vals in heretic_to_doom.items():
 	if vals is None:
 		mobjnum = placeable_objects.pop()
 		print("clearing %d" % (mobjinfo[mobjnum].doomednum))
 		mobjinfo[mobjnum].update({
-			'spawnstate': S_NULL,
+			'spawnstate': null_state,
+			'flags': 0,
 			'doomednum': heretic,
 		})
 
