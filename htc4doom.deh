@@ -2,111 +2,552 @@ Patch File for DeHackEd v3.0
 
 # Note: Use the pound sign ('#') to start comment lines.
 
-Doom version = 21
+Doom version = 19
 Patch format = 6
 
-
-Thing 2 (Trooper)
+Thing 2
 ID # = 68
 
-Thing 3 (Sargeant)
+Thing 3
 ID # = 45
 
-Thing 12 (Imp)
+Thing 4
+ID # = 69
+Initial frame = 174
+Hit points = 20
+First moving frame = 176
+Alert sound = 36
+Attack sound = 1
+Injury frame = 187
+Pain chance = 200
+Pain sound = 27
+Far attack frame = 184
+Death frame = 189
+Exploding frame = 194
+Death sound = 59
+Speed = 8
+Mass = 100
+Action sound = 75
+Respawn frame = 203
+
+Thing 6
+ID # = 46
+Initial frame = 207
+Hit points = 30
+First moving frame = 209
+Alert sound = 37
+Injury frame = 220
+Pain chance = 170
+Close attack frame = 0
+Far attack frame = 217
+Death frame = 222
+Exploding frame = 227
+Death sound = 60
+Speed = 8
+Mass = 100
+Action sound = 75
+Respawn frame = 236
+
+Thing 9
+ID # = 65
+Initial frame = 442
+Hit points = 60
+First moving frame = 444
+Alert sound = 39
+Injury frame = 455
+Pain chance = 200
+Pain sound = 27
+Close attack frame = 452
+Far attack frame = 452
+Death frame = 457
+Exploding frame = 462
+Death sound = 62
+Width = 1310720
+Height = 3670016
+Mass = 100
+Action sound = 76
+Respawn frame = 470
+
+Thing 11
+ID # = 92
+Initial frame = 442
+Hit points = 60
+First moving frame = 444
+Alert sound = 39
+Injury frame = 455
+Pain chance = 200
+Close attack frame = 452
+Far attack frame = 452
+Death frame = 457
+Exploding frame = 462
+Death sound = 62
+Action sound = 76
+Respawn frame = 470
+
+Thing 12
 ID # = 64
 
-Thing 13 (Demon)
-ID # = 70
+Thing 13
+ID # = 90
 
-Thing 15 (Cacodemon)
+Thing 14
 ID # = 15
+Initial frame = 502
+Hit points = 400
+First moving frame = 503
+Alert sound = 42
+Attack sound = 0
+Injury frame = 507
+Pain chance = 128
+Close attack frame = 0
+Far attack frame = 504
+Death frame = 510
+Death sound = 65
+Speed = 8
+Width = 2031616
+Bits = 4211206
+Respawn frame = 516
 
-Thing 16 (Baron of Hell)
+Thing 15
+ID # = 6
+
+Thing 16
+ID # = 9
+
+Thing 18
 ID # = 70
+Initial frame = 527
+Hit points = 1000
+First moving frame = 529
+Alert sound = 43
+Injury frame = 540
+Close attack frame = 537
+Far attack frame = 537
+Death frame = 542
+Death sound = 67
+Respawn frame = 549
 
-Thing 19 (Lost Soul)
+Thing 19
+ID # = 5
+
+Thing 20
 ID # = 66
+Initial frame = 585
+Hit points = 100
+First moving frame = 587
+Alert sound = 0
+Attack sound = 51
+Injury frame = 593
+Pain chance = 256
+Far attack frame = 589
+Death frame = 595
+Death sound = 17
+Speed = 8
+Width = 1048576
+Height = 3670016
+Mass = 50
+Missile damage = 3
+Bits = 16902
 
-Thing 31 (Barrel)
+Thing 21
+ID # = 54
+Initial frame = 870
+Hit points = 1000
+First moving frame = 0
+Alert sound = 0
+Injury frame = 0
+Pain chance = 0
+Pain sound = 0
+Far attack frame = 0
+Death frame = 0
+Death sound = 0
+Speed = 0
+Width = 1310720
+Height = 1048576
+Mass = 100
+Action sound = 0
+Bits = 1
+Respawn frame = 0
+
+Thing 22
+ID # = 7
+
+Thing 23
+ID # = 55
+Initial frame = 871
+Hit points = 1000
+First moving frame = 0
+Alert sound = 0
+Injury frame = 0
+Pain chance = 0
+Pain sound = 0
+Far attack frame = 0
+Death frame = 0
+Death sound = 0
+Speed = 0
+Width = 1310720
+Height = 1048576
+Mass = 100
+Action sound = 0
+Bits = 1
+Respawn frame = 0
+
+Thing 24
+ID # = 20
+Initial frame = 874
+Hit points = 1000
+First moving frame = 0
+Alert sound = 0
+Injury frame = 0
+Pain chance = 0
+Pain sound = 0
+Far attack frame = 0
+Death frame = 0
+Exploding frame = 0
+Death sound = 0
+Speed = 0
+Height = 1048576
+Action sound = 0
+Bits = 1
+Respawn frame = 0
+
+Thing 25
+ID # = 21
+Initial frame = 875
+Hit points = 1000
+Injury frame = 0
+Pain chance = 0
+Pain sound = 0
+Death frame = 0
+Death sound = 0
+Width = 1310720
+Height = 1048576
+Mass = 100
+Bits = 1
+
+Thing 26
+ID # = 38
+Initial frame = 906
+Hit points = 1000
+Injury frame = 0
+Pain chance = 0
+Pain sound = 0
+Death frame = 0
+Death sound = 0
+Mass = 100
+Bits = 2
+
+Thing 27
+ID # = 24
+Initial frame = 904
+First moving frame = 0
+Height = 4456448
+Bits = 768
+
+Thing 28
+ID # = 26
+Initial frame = 904
+Height = 4456448
+Bits = 768
+
+Thing 31
 ID # = 44
 
-Thing 44 (Green Armor)
+Thing 44
 ID # = 85
 
-Thing 45 (Blue Armor)
+Thing 45
 ID # = 31
 
-Thing 51 (Yellow Skull Key)
+Thing 46
+ID # = 25
+Initial frame = 904
+Height = 4456448
+Bits = 768
+
+Thing 47
+ID # = 23
+Initial frame = 0
+
+Thing 48
+ID # = 30
+Initial frame = 0
+
+Thing 49
+ID # = 33
+Initial frame = 0
+
+Thing 50
+ID # = 34
+Initial frame = 0
+
+Thing 51
 ID # = 80
 
-Thing 52 (Red Skull Key)
+Thing 52
 ID # = 73
 
-Thing 53 (Blue Skull Key)
+Thing 53
 ID # = 79
 
-Thing 54 (Stim Pack)
+Thing 54
 ID # = 81
 
-Thing 55 (Medical Kit)
+Thing 55
 ID # = 82
 
-Thing 56 (Soul Sphere)
+Thing 56
 ID # = 32
 
-Thing 57 (Invulnerability)
+Thing 57
 ID # = 84
 
-Thing 59 (Blur Sphere)
+Thing 58
+ID # = 36
+Initial frame = 0
+
+Thing 59
 ID # = 75
 
-Thing 61 (Computer Map)
+Thing 60
+ID # = 39
+Initial frame = 0
+
+Thing 61
 ID # = 35
 
-Thing 64 (Ammo Clip)
+Thing 62
+ID # = 40
+Initial frame = 0
+
+Thing 63
+ID # = 41
+Initial frame = 0
+
+Thing 64
 ID # = 10
 
-Thing 65 (Box of Ammo)
+Thing 65
 ID # = 12
 
-Thing 66 (Rocket)
+Thing 66
 ID # = 22
 
-Thing 67 (Box of Rockets)
-ID # = 23
+Thing 67
+ID # = 42
+Initial frame = 0
 
-Thing 68 (Energy Cell)
-ID # = 20
+Thing 68
+ID # = 13
 
-Thing 69 (Energy Pack)
-ID # = 21
+Thing 69
+ID # = 16
 
-Thing 70 (Shells)
+Thing 70
 ID # = 18
 
-Thing 71 (Box of Shells)
+Thing 71
 ID # = 19
 
-Thing 73 (BFG 9000)
+Thing 73
 ID # = 2002
 
-Thing 74 (Chaingun)
+Thing 74
 ID # = 53
 
-Thing 84 (Short Gr. Pillar)
+Thing 79
+ID # = 43
+Initial frame = 0
+
+Thing 80
+ID # = 48
+Initial frame = 0
+
+Thing 81
+ID # = 49
+Initial frame = 0
+
+Thing 82
+ID # = 52
+Initial frame = 0
+
+Thing 83
+ID # = 56
+Initial frame = 0
+
+Thing 84
 ID # = 47
 
-Thing 86 (Short Red Pillar)
+Thing 85
+ID # = 74
+Initial frame = 0
+
+Thing 86
 ID # = 29
 
-Thing 92 (Tall Blue Torch)
+Thing 87
+ID # = 86
+Initial frame = 0
+
+Thing 88
+ID # = 87
+Initial frame = 0
+
+Thing 89
+ID # = 1200
+Initial frame = 0
+
+Thing 90
+ID # = 76
+
+Thing 91
+ID # = 1201
+Initial frame = 0
+
+Thing 92
 ID # = 94
 
-Thing 93 (Tall Green Torch)
+Thing 93
 ID # = 95
 
-Thing 94 (Tall Red Torch)
+Thing 94
 ID # = 96
 
-Thing 101 (Candelabra)
+Thing 95
+ID # = 1202
+Initial frame = 0
+
+Thing 96
+ID # = 1203
+Initial frame = 0
+
+Thing 97
+ID # = 50
+
+Thing 98
+ID # = 37
+Initial frame = 887
+
+Thing 99
+ID # = 1204
+Initial frame = 0
+
+Thing 100
+ID # = 1205
+Initial frame = 0
+
+Thing 101
 ID # = 28
+
+Thing 102
+ID # = 1206
+Initial frame = 0
+
+Thing 103
+ID # = 1207
+Initial frame = 0
+
+Thing 104
+ID # = 1208
+Initial frame = 0
+
+Thing 105
+ID # = 1209
+Initial frame = 0
+
+Thing 106
+ID # = 2035
+Initial frame = 0
+
+Thing 107
+ID # = -1
+
+Thing 108
+ID # = 17
+
+Thing 109
+ID # = -1
+
+Thing 110
+ID # = -1
+
+Thing 111
+ID # = 51
+
+Thing 112
+ID # = -1
+
+Thing 113
+ID # = -1
+
+Thing 114
+ID # = -1
+
+Thing 115
+ID # = -1
+
+Thing 116
+ID # = -1
+
+Thing 117
+ID # = -1
+
+Thing 118
+ID # = -1
+
+Thing 119
+ID # = -1
+
+Thing 120
+ID # = -1
+
+Thing 121
+ID # = -1
+
+Thing 122
+ID # = -1
+
+Thing 123
+ID # = -1
+
+Thing 124
+ID # = -1
+
+Thing 125
+ID # = -1
+
+Thing 126
+ID # = -1
+
+Thing 127
+ID # = -1
+
+Thing 128
+ID # = -1
+
+Thing 129
+ID # = -1
+
+Thing 130
+ID # = -1
+
+Thing 131
+ID # = -1
+
+Thing 132
+ID # = -1
+
+Thing 133
+ID # = -1
+
+Thing 134
+ID # = -1
+
+Thing 135
+ID # = -1
+
+Thing 136
+ID # = -1
+
+Thing 137
+ID # = -1
