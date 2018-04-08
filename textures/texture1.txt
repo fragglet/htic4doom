@@ -141,6 +141,8 @@ SNDCHNKS    		64	128
 *       SW16_6          0       0
 *       SW16_6          96      0
 SNDPLAIN    		64	128
+*       WALL02_2        0       56
+*       WALL02_2        0       0
 SPINE1      		64	128
 SPINE2      		64	128
 SQPEB1      		64	128
@@ -169,6 +171,8 @@ TMBSTON1    		64	48
 TMBSTON2    		64	48
 *	WALL00_1	0	0
 TRISTON1    		64	128
+*	WALL03_7	0	0
+*	WALL03_7	0	64
 ; From MIDBRN1. We don't have Doom II's MIDSPACE.
 WDGAT64     		64	64
 *       DOOR12_1        0       -32

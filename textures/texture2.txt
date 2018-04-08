@@ -130,6 +130,9 @@ MOSAIC5     		64	128
 *       COMP03_1        0       0
 *       COMP03_2        0       64
 ROOTWALL    		128	128
+*	W104_1		0	0
+*	W104_1		64	0
+*	W106_1		0	0
 ; These are just Doom's SKY2/SKY3:
 SKY2        		256	128
 *       SKY2            0       0
