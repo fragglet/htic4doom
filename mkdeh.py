@@ -177,54 +177,106 @@ heretic_to_doom = {
 	52: None,
 
 	# -- Monsters:
-	# TODO: Adjust hit points/difficulty on these.
+	# Health is overridden here to match the health of the associated
+	# Heretic monsters. Radius is also overridden to match, so that
+	# monsters cannot get stuck in spaces when Doom monster is larger.
 
 	# Gargoyle -> Lost soul:
-	66: replacement(MT_SKULL,
-	                damage=1,
-	                radius=16 * FRACUNIT,
-	                spawnhealth=40),
+	66: replacement(
+		MT_SKULL,
+		damage=1,
+		radius=16 * FRACUNIT,
+		spawnhealth=40,
+	),
 	# Gargoyle leader -> Lost soul:
-	5: replacement(MT_SKULL,
-	               damage=1,
-	               radius=16 * FRACUNIT,
-	               spawnhealth=80),
+	5: replacement(
+		MT_SKULL,
+		damage=1,
+		radius=16 * FRACUNIT,
+		spawnhealth=80,
+	),
 	# Golem -> Zombieman:
-	68: replacement(MT_POSSESSED,
-	                spawnhealth=80,
-	                radius=22 * FRACUNIT),
-	# Golem Ghost -> Zombieman:   -- TODO: Invis
-	69: replacement(MT_POSSESSED,
-	                spawnhealth=80,
-	                flags=MF_SOLID|MF_SHOOTABLE|MF_COUNTKILL|MF_SHADOW,
-	                radius=22 * FRACUNIT),
+	68: replacement(
+		MT_POSSESSED,
+		spawnhealth=80,
+		radius=22 * FRACUNIT,
+	),
+	# Golem Ghost -> Zombieman:
+	69: replacement(
+		MT_POSSESSED,
+		spawnhealth=80,
+		flags=MF_SOLID|MF_SHOOTABLE|MF_COUNTKILL|MF_SHADOW,
+		radius=22 * FRACUNIT,
+	),
 	# Golem Leader -> Shotgun guy
-	45: replacement(MT_SHOTGUY,
-	                spawnhealth=100,
-	                radius=22 * FRACUNIT),
-	# Golem Leader ghost -> Shotgun guy -- TODO: Invis
-	46: replacement(MT_SHOTGUY,
-	                spawnhealth=100,
-	                flags=MF_SOLID|MF_SHOOTABLE|MF_COUNTKILL|MF_SHADOW,
-	                radius=22 * FRACUNIT),
+	45: replacement(
+		MT_SHOTGUY,
+		spawnhealth=100,
+		radius=22 * FRACUNIT,
+	),
+	# Golem Leader ghost -> Shotgun guy:
+	46: replacement(
+		MT_SHOTGUY,
+		spawnhealth=100,
+		flags=MF_SOLID|MF_SHOOTABLE|MF_COUNTKILL|MF_SHADOW,
+		radius=22 * FRACUNIT,
+	),
 	# Undead Warrior -> Imp:
-	64: replacement(MT_TROOP),
-	# Undead Warrior Ghost -> Imp:  -- TODO: Invis
-	65: replacement(MT_TROOP),
+	64: replacement(
+		MT_TROOP,
+		spawnhealth=200,
+		radius=24 * FRACUNIT,
+	),
+	# Undead Warrior Ghost -> Imp:
+	65: replacement(
+		MT_TROOP,
+		spawnhealth=200,
+		radius=24 * FRACUNIT,
+		flags=MF_SOLID|MF_SHOOTABLE|MF_COUNTKILL|MF_SHADOW,
+	),
 	# Disciple -> Cacodemon:
-	15: replacement(MT_HEAD),
+	15: replacement(
+		MT_HEAD,
+		spawnhealth=180,
+		radius=16 * FRACUNIT,
+	),
 	# Weredragon -> Baron:
-	70: replacement(MT_BRUISER),
+	70: replacement(
+		MT_BRUISER,
+		spawnhealth=220,
+		radius=32 * FRACUNIT,
+	),
 	# Sabreclaw -> Demon:
-	90: replacement(MT_SERGEANT),
+	90: replacement(
+		MT_SERGEANT,
+		spawnhealth=150,
+		radius=20 * FRACUNIT,
+	),
 	# Iron lich -> Cacodemon:
-	6: replacement(MT_HEAD),
+	6: replacement(
+		MT_HEAD,
+		spawnhealth=700,
+		radius=40 * FRACUNIT,
+		speed=6,
+		flags=MF_SOLID|MF_SHOOTABLE|MF_COUNTKILL,
+	),
 	# Maulotaur -> Baron:
-	9: replacement(MT_BRUISER),
+	9: replacement(
+		MT_BRUISER,
+		spawnhealth=3000,
+		radius=28 * FRACUNIT,
+		speed=16,
+	),
 	# Ophidian -> Imp:
-	92: replacement(MT_TROOP),
+	92: replacement(
+		MT_TROOP,
+		spawnhealth=280,
+		radius=22 * FRACUNIT,
+	),
 	# D'Sparil -> Cyberdemon:
-	7: replacement(MT_CYBORG),
+	7: replacement(
+		MT_CYBORG,
+	),
 	# D'Sparil Spot:
 	56: None,
 
