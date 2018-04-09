@@ -7,14 +7,18 @@ Patch format = 6
 
 Thing 2
 ID # = 68
+Hit points = 80
+Width = 1441792
 
 Thing 3
 ID # = 45
+Hit points = 100
+Width = 1441792
 
 Thing 4
 ID # = 69
 Initial frame = 174
-Hit points = 20
+Hit points = 80
 First moving frame = 176
 Alert sound = 36
 Attack sound = 1
@@ -26,14 +30,16 @@ Death frame = 189
 Exploding frame = 194
 Death sound = 59
 Speed = 8
+Width = 1441792
 Mass = 100
 Action sound = 75
+Bits = 4456454
 Respawn frame = 203
 
 Thing 6
 ID # = 46
 Initial frame = 207
-Hit points = 30
+Hit points = 100
 First moving frame = 209
 Alert sound = 37
 Injury frame = 220
@@ -44,8 +50,10 @@ Death frame = 222
 Exploding frame = 227
 Death sound = 60
 Speed = 8
+Width = 1441792
 Mass = 100
 Action sound = 75
+Bits = 4456454
 Respawn frame = 236
 
 Thing 9
@@ -129,11 +137,13 @@ Respawn frame = 549
 
 Thing 19
 ID # = 5
+Hit points = 80
+Missile damage = 1
 
 Thing 20
 ID # = 66
 Initial frame = 585
-Hit points = 100
+Hit points = 40
 First moving frame = 587
 Alert sound = 0
 Attack sound = 51
@@ -146,7 +156,7 @@ Speed = 8
 Width = 1048576
 Height = 3670016
 Mass = 50
-Missile damage = 3
+Missile damage = 1
 Bits = 16902
 
 Thing 21

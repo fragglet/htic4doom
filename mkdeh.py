@@ -180,17 +180,33 @@ heretic_to_doom = {
 	# TODO: Adjust hit points/difficulty on these.
 
 	# Gargoyle -> Lost soul:
-	66: replacement(MT_SKULL),
+	66: replacement(MT_SKULL,
+	                damage=1,
+	                radius=16 * FRACUNIT,
+	                spawnhealth=40),
 	# Gargoyle leader -> Lost soul:
-	5: replacement(MT_SKULL),
+	5: replacement(MT_SKULL,
+	               damage=1,
+	               radius=16 * FRACUNIT,
+	               spawnhealth=80),
 	# Golem -> Zombieman:
-	68: replacement(MT_POSSESSED),
+	68: replacement(MT_POSSESSED,
+	                spawnhealth=80,
+	                radius=22 * FRACUNIT),
 	# Golem Ghost -> Zombieman:   -- TODO: Invis
-	69: replacement(MT_POSSESSED),
+	69: replacement(MT_POSSESSED,
+	                spawnhealth=80,
+	                flags=MF_SOLID|MF_SHOOTABLE|MF_COUNTKILL|MF_SHADOW,
+	                radius=22 * FRACUNIT),
 	# Golem Leader -> Shotgun guy
-	45: replacement(MT_SHOTGUY),
+	45: replacement(MT_SHOTGUY,
+	                spawnhealth=100,
+	                radius=22 * FRACUNIT),
 	# Golem Leader ghost -> Shotgun guy -- TODO: Invis
-	46: replacement(MT_SHOTGUY),
+	46: replacement(MT_SHOTGUY,
+	                spawnhealth=100,
+	                flags=MF_SOLID|MF_SHOOTABLE|MF_COUNTKILL|MF_SHADOW,
+	                radius=22 * FRACUNIT),
 	# Undead Warrior -> Imp:
 	64: replacement(MT_TROOP),
 	# Undead Warrior Ghost -> Imp:  -- TODO: Invis
