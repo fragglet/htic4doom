@@ -148,6 +148,8 @@ STNGLS2     		128	128
 STNGLS3     		128	128
 *	SKY3            0	0
 TRISTON2    		64	128
+*	SW12_4		0	0
+*	SW12_5		32	0
 ; Doom 1 doesn't have waterfall textures, but we can overlay
 ; this patch from COMPBLUE to give the appearance of movement:
 WATRWAL1    		64	128

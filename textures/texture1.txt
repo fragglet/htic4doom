@@ -62,7 +62,9 @@ DOORSTON    		64	128
 DOORWOOD    		64	128
 *       DOOR11_1        -28     0
 *       DOOR11_1        -28     112
+; Doesn't have the drips but is the right color:
 DRIPWALL    		32	128
+*	HELL6_3		0	0
 ; Reuse marble face murals for these. GRSKULL1 is marble wall
 ; (MARBLE2) for consistency.
 GRSKULL1    		64	128
@@ -144,11 +146,19 @@ SNDPLAIN    		64	128
 *       WALL02_2        0       56
 *       WALL02_2        0       0
 SPINE1      		64	128
+*	SW11_4		0	0
+*	SW11_5		32	0
+*	T14_5		16	16
+; Consistent with SNDBLCKS above.
 SPINE2      		64	128
+*	SW11_4		0	0
+*	SW11_5		32	0
 SQPEB1      		64	128
 *	SW11_1		0	0
 *	SW11_2		32	0
+; Stained glass:
 STNGLS1     		128	128
+*	SKY1		0	0
 ; There are only two types of switch, and both should have
 ; background textures which match METL2.
 SW1OFF      		64	128
