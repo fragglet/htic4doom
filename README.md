@@ -50,3 +50,7 @@ The WAD has a number of limitations in practice:
   (105). This can sometimes make levels uncompletable or necessitate
   the use of cheats to finish them.
 
+* Heretic has additional sector types which control friction, scrolling
+  and wind effects. Doom doesn't support these and vanilla will crash if
+  you walk into a sector of one of these types.
+
