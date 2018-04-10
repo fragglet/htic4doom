@@ -258,7 +258,7 @@ heretic_to_doom = {
 		spawnhealth=700,
 		radius=40 * FRACUNIT,
 		speed=6,
-		flags=MF_SOLID|MF_SHOOTABLE|MF_COUNTKILL,
+		flags=MF_SOLID|MF_SHOOTABLE|MF_COUNTKILL|(3<<MF_TRANSSHIFT),
 	),
 	# Maulotaur -> Baron:
 	9: replacement(
