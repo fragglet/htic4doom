@@ -27,10 +27,26 @@ BANNER4     		64	128
 *       W13_A           41      18
 ; BANNER5/6 match SPINE2.
 BANNER5     		64	128
+*	SW11_4		0	0
+*	SW11_5		32	0
+*       FLAMP           4       18
+*       FLAMP           38      18
 BANNER6     		64	128
+*	SW11_4		0	0
+*	SW11_5		32	0
+*       W13_A           7       18
+*       W13_A           41      18
 ; BANNER7/8 match TRISTON1.
 BANNER7     		64	128
+*	WALL03_7	0	0
+*	WALL03_7	0	64
+*       FLAMP           4       18
+*       FLAMP           38      18
 BANNER8     		64	128
+*	WALL03_7	0	0
+*	WALL03_7	0	64
+*       W13_A           7       18
+*       W13_A           41      18
 ; COMPBLUE:
 BLUEFRAG    		64	128
 *       COMP03_1        0       0
