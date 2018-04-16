@@ -104,22 +104,26 @@ ID # = 90
 Width = 1310720
 
 Thing 14
-ID # = 15
-Initial frame = 502
-Hit points = 180
-First moving frame = 503
-Alert sound = 42
+ID # = 70
+Initial frame = 442
+Hit points = 220
+First moving frame = 444
+Alert sound = 39
 Attack sound = 0
-Injury frame = 507
-Pain chance = 128
-Close attack frame = 0
-Far attack frame = 504
-Death frame = 510
-Death sound = 65
+Injury frame = 455
+Pain chance = 200
+Pain sound = 27
+Close attack frame = 452
+Far attack frame = 452
+Death frame = 457
+Exploding frame = 462
+Death sound = 62
 Speed = 8
-Width = 1048576
-Bits = 4211206
-Respawn frame = 516
+Width = 2097152
+Mass = 100
+Action sound = 76
+Bits = 4194310
+Respawn frame = 470
 
 Thing 15
 ID # = 6
@@ -135,18 +139,22 @@ Speed = 16
 Width = 1835008
 
 Thing 18
-ID # = 70
-Initial frame = 527
-Hit points = 220
-First moving frame = 529
-Alert sound = 43
-Injury frame = 540
-Close attack frame = 537
-Far attack frame = 537
-Death frame = 542
-Death sound = 67
-Width = 2097152
-Respawn frame = 549
+ID # = 15
+Initial frame = 502
+Hit points = 180
+First moving frame = 503
+Alert sound = 42
+Injury frame = 507
+Pain chance = 128
+Close attack frame = 0
+Far attack frame = 504
+Death frame = 510
+Death sound = 65
+Width = 1048576
+Height = 3670016
+Mass = 400
+Bits = 4211206
+Respawn frame = 516
 
 Thing 19
 ID # = 5

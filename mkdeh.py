@@ -240,9 +240,9 @@ heretic_to_doom = {
 		spawnhealth=180,
 		radius=16 * FRACUNIT,
 	),
-	# Weredragon -> Baron:
+	# Weredragon -> Imp:
 	70: replacement(
-		MT_BRUISER,
+		MT_TROOP,
 		spawnhealth=220,
 		radius=32 * FRACUNIT,
 	),
