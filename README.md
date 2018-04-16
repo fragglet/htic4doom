@@ -44,6 +44,10 @@ The WAD has a number of limitations in practice:
   looking mismatched or inappropriate, and texture alignment inevitably
   ends up being messed up.
 
+* Not all Heretic powerups map to Doom ones in any obvious way. In
+  particular if levels rely on using the Wings of Wrath to make progress
+  then they probably aren't completable.
+
 * Sometimes line triggers don't work as intended. Heretic has a few
   linedef types which don't match Doom. These include the fast stair
   builder types (106/107), triple-speed door (100) and secret exit

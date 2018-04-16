@@ -97,6 +97,20 @@ heretic_to_doom = {
 	31: replacement(sprite_to_mobj(SPR_ARM2)),
 	# Map scroll -> Automap:
 	35: replacement(sprite_to_mobj(SPR_PMAP)),
+	# Torch -> Light amp goggles:
+	33: replacement(sprite_to_mobj(SPR_PVIS)),
+	# The following get very tenuous...
+	# Wings of Wrath -> Rad suit:
+	# (because you can use them to fly over lava?)
+	83: replacement(sprite_to_mobj(SPR_SUIT)),
+	# Tome of power -> Berserk pack:
+	86: replacement(sprite_to_mobj(SPR_PSTR)),
+	# Morph ovum -> Energy cell pack:
+	30: replacement(sprite_to_mobj(SPR_CELP)),
+	# Time bomb -> Rocket:
+	34: replacement(sprite_to_mobj(SPR_ROCK)),
+	# Chaos device -> Box of shells:
+	36: replacement(sprite_to_mobj(SPR_SBOX)),
 
 	# -- Keys:
 
@@ -106,22 +120,6 @@ heretic_to_doom = {
 	73: replacement(sprite_to_mobj(SPR_RSKU)),
 	# Yellow key -> Yellow skull key:
 	80: replacement(sprite_to_mobj(SPR_YSKU)),
-
-
-	# -- Hard to map artifacts
-	#
-	#     30	Artifact	Morph Ovum
-	#     34	Artifact	Time Bomb
-	#     83	Artifact	Wings of Wrath
-	#     36	Artifact*	Chaos Device (random teleport)
-	#     86	Artifact	Tome of Power
-	#     33	Artifact	Torch
-	30: None,
-	34: None,
-	83: None,
-	36: None,
-	86: None,
-	33: None,
 
 	# -- Decorations:
 

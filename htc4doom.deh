@@ -224,8 +224,8 @@ Bits = 1
 Respawn frame = 0
 
 Thing 24
-ID # = 20
-Initial frame = 874
+ID # = 34
+Initial frame = 872
 Hit points = 1000
 First moving frame = 0
 Alert sound = 0
@@ -243,8 +243,8 @@ Bits = 1
 Respawn frame = 0
 
 Thing 25
-ID # = 21
-Initial frame = 875
+ID # = 20
+Initial frame = 874
 Hit points = 1000
 Injury frame = 0
 Pain chance = 0
@@ -257,29 +257,30 @@ Mass = 100
 Bits = 1
 
 Thing 26
-ID # = 38
-Initial frame = 906
+ID # = 21
+Initial frame = 875
 Hit points = 1000
 Injury frame = 0
 Pain chance = 0
 Pain sound = 0
 Death frame = 0
 Death sound = 0
+Width = 1310720
 Mass = 100
-Bits = 2
+Bits = 1
 
 Thing 27
-ID # = 24
-Initial frame = 904
+ID # = 30
+Initial frame = 875
 First moving frame = 0
-Height = 4456448
-Bits = 768
+Height = 1048576
+Bits = 1
 
 Thing 28
-ID # = 26
-Initial frame = 904
-Height = 4456448
-Bits = 768
+ID # = 36
+Initial frame = 877
+Height = 1048576
+Bits = 1
 
 Thing 31
 ID # = 44
@@ -291,28 +292,31 @@ Thing 45
 ID # = 31
 
 Thing 46
+ID # = 38
+Initial frame = 906
+Width = 1048576
+Bits = 2
+
+Thing 47
+ID # = 24
+Initial frame = 904
+Height = 4456448
+Bits = 768
+
+Thing 48
+ID # = 26
+Initial frame = 904
+Height = 4456448
+Bits = 768
+
+Thing 49
 ID # = 25
 Initial frame = 904
 Height = 4456448
 Bits = 768
 
-Thing 47
-ID # = 28
-Initial frame = 45
-Bits = 0
-
-Thing 48
-ID # = 30
-Initial frame = 45
-Bits = 0
-
-Thing 49
-ID # = 33
-Initial frame = 45
-Bits = 0
-
 Thing 50
-ID # = 34
+ID # = 28
 Initial frame = 45
 Bits = 0
 
@@ -338,28 +342,22 @@ Thing 57
 ID # = 84
 
 Thing 58
-ID # = 36
-Initial frame = 45
-Bits = 0
+ID # = 86
 
 Thing 59
 ID # = 75
 
 Thing 60
-ID # = 39
-Initial frame = 45
-Bits = 0
+ID # = 83
 
 Thing 61
 ID # = 35
 
 Thing 62
-ID # = 40
-Initial frame = 45
-Bits = 0
+ID # = 33
 
 Thing 63
-ID # = 41
+ID # = 39
 Initial frame = 45
 Bits = 0
 
@@ -394,27 +392,27 @@ Thing 74
 ID # = 53
 
 Thing 79
-ID # = 42
+ID # = 40
 Initial frame = 45
 Bits = 0
 
 Thing 80
-ID # = 43
+ID # = 41
 Initial frame = 45
 Bits = 0
 
 Thing 81
-ID # = 48
+ID # = 42
 Initial frame = 45
 Bits = 0
 
 Thing 82
-ID # = 49
+ID # = 43
 Initial frame = 45
 Bits = 0
 
 Thing 83
-ID # = 52
+ID # = 48
 Initial frame = 45
 Bits = 0
 
@@ -422,7 +420,7 @@ Thing 84
 ID # = 47
 
 Thing 85
-ID # = 56
+ID # = 49
 Initial frame = 45
 Bits = 0
 
@@ -430,17 +428,17 @@ Thing 86
 ID # = 29
 
 Thing 87
-ID # = 74
+ID # = 52
 Initial frame = 45
 Bits = 0
 
 Thing 88
-ID # = 83
+ID # = 56
 Initial frame = 45
 Bits = 0
 
 Thing 89
-ID # = 86
+ID # = 74
 Initial frame = 45
 Bits = 0
 
