@@ -135,7 +135,7 @@ Authors MAY use the contents of this file as a base for
 modification or reuse.  Permissions have been obtained from original
 authors for any of their resources modified or included in this file.
 
-You MAY not distribute this file in any format.
+You MAY distribute this file in any format.
 
 You can do anything you want with this file.
 
