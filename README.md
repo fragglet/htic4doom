@@ -18,8 +18,8 @@ The main components are:
   animated textures will animate as intended in Boom-compatible source
   ports.
 
-* Dehacked patch to map `doomednum` for all of Heretic's thing types
-  into equivalent thing types found in Doom.
+* Dehacked patch that maps all Heretic thing types into equivalent thing
+  types found in Doom.
 
 ### Limitations
 
