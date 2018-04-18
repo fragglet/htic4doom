@@ -25,8 +25,7 @@ The main components are:
 
 * Replacement `TEXTURE1`/`TEXTURE2` lumps. These aim to recreate
   compatible versions of Heretic's wall textures using Doom's texture
-  patches. Ideally, for the sake of minimalism no new patches should
-  be included unless it proves absolutely necessary.
+  patches. In the interests of minimalism no new patches are included.
 
 * Compatibly-named replacements for Heretic's flats (floor and ceiling
   textures). For the sake of consistency, Doom textures are reused here
