@@ -16,83 +16,16 @@ Hit points = 100
 Width = 1441792
 
 Thing 4
-ID # = 69
-Initial frame = 174
-Hit points = 80
-First moving frame = 176
-Alert sound = 36
-Attack sound = 1
-Injury frame = 187
-Pain chance = 200
-Pain sound = 27
-Far attack frame = 184
-Death frame = 189
-Exploding frame = 194
-Death sound = 59
-Speed = 8
-Width = 1441792
-Mass = 100
-Action sound = 75
-Bits = 4456454
-Respawn frame = 203
+ID # = -1
 
 Thing 6
-ID # = 46
-Initial frame = 207
-Hit points = 100
-First moving frame = 209
-Alert sound = 37
-Injury frame = 220
-Pain chance = 170
-Close attack frame = 0
-Far attack frame = 217
-Death frame = 222
-Exploding frame = 227
-Death sound = 60
-Speed = 8
-Width = 1441792
-Mass = 100
-Action sound = 75
-Bits = 4456454
-Respawn frame = 236
+ID # = -1
 
 Thing 9
-ID # = 65
-Initial frame = 442
-Hit points = 200
-First moving frame = 444
-Alert sound = 39
-Injury frame = 455
-Pain chance = 200
-Pain sound = 27
-Close attack frame = 452
-Far attack frame = 452
-Death frame = 457
-Exploding frame = 462
-Death sound = 62
-Width = 1572864
-Height = 3670016
-Mass = 100
-Action sound = 76
-Bits = 4456454
-Respawn frame = 470
+ID # = -1
 
 Thing 11
-ID # = 92
-Initial frame = 442
-Hit points = 280
-First moving frame = 444
-Alert sound = 39
-Injury frame = 455
-Pain chance = 200
-Close attack frame = 452
-Far attack frame = 452
-Death frame = 457
-Exploding frame = 462
-Death sound = 62
-Width = 1441792
-Action sound = 76
-Respawn frame = 470
+ID # = -1
 
 Thing 12
 ID # = 64
@@ -104,26 +37,7 @@ ID # = 90
 Width = 1310720
 
 Thing 14
-ID # = 70
-Initial frame = 442
-Hit points = 220
-First moving frame = 444
-Alert sound = 39
-Attack sound = 0
-Injury frame = 455
-Pain chance = 200
-Pain sound = 27
-Close attack frame = 452
-Far attack frame = 452
-Death frame = 457
-Exploding frame = 462
-Death sound = 62
-Speed = 8
-Width = 2097152
-Mass = 100
-Action sound = 76
-Bits = 4194310
-Respawn frame = 470
+ID # = -1
 
 Thing 15
 ID # = 6
@@ -139,22 +53,7 @@ Speed = 16
 Width = 1835008
 
 Thing 18
-ID # = 15
-Initial frame = 502
-Hit points = 180
-First moving frame = 503
-Alert sound = 42
-Injury frame = 507
-Pain chance = 128
-Close attack frame = 0
-Far attack frame = 504
-Death frame = 510
-Death sound = 65
-Width = 1048576
-Height = 3670016
-Mass = 400
-Bits = 4211206
-Respawn frame = 516
+ID # = -1
 
 Thing 19
 ID # = 5
@@ -162,125 +61,31 @@ Hit points = 80
 Missile damage = 1
 
 Thing 20
-ID # = 66
-Initial frame = 585
-Hit points = 40
-First moving frame = 587
-Alert sound = 0
-Attack sound = 51
-Injury frame = 593
-Pain chance = 256
-Far attack frame = 589
-Death frame = 595
-Death sound = 17
-Speed = 8
-Width = 1048576
-Height = 3670016
-Mass = 50
-Missile damage = 1
-Bits = 16902
+ID # = -1
 
 Thing 21
-ID # = 54
-Initial frame = 870
-Hit points = 1000
-First moving frame = 0
-Alert sound = 0
-Injury frame = 0
-Pain chance = 0
-Pain sound = 0
-Far attack frame = 0
-Death frame = 0
-Death sound = 0
-Speed = 0
-Width = 1310720
-Height = 1048576
-Mass = 100
-Action sound = 0
-Bits = 1
-Respawn frame = 0
+ID # = -1
 
 Thing 22
 ID # = 7
 
 Thing 23
-ID # = 55
-Initial frame = 871
-Hit points = 1000
-First moving frame = 0
-Alert sound = 0
-Injury frame = 0
-Pain chance = 0
-Pain sound = 0
-Far attack frame = 0
-Death frame = 0
-Death sound = 0
-Speed = 0
-Width = 1310720
-Height = 1048576
-Mass = 100
-Action sound = 0
-Bits = 1
-Respawn frame = 0
+ID # = -1
 
 Thing 24
-ID # = 34
-Initial frame = 872
-Hit points = 1000
-First moving frame = 0
-Alert sound = 0
-Injury frame = 0
-Pain chance = 0
-Pain sound = 0
-Far attack frame = 0
-Death frame = 0
-Exploding frame = 0
-Death sound = 0
-Speed = 0
-Height = 1048576
-Action sound = 0
-Bits = 1
-Respawn frame = 0
+ID # = -1
 
 Thing 25
-ID # = 20
-Initial frame = 874
-Hit points = 1000
-Injury frame = 0
-Pain chance = 0
-Pain sound = 0
-Death frame = 0
-Death sound = 0
-Width = 1310720
-Height = 1048576
-Mass = 100
-Bits = 1
+ID # = -1
 
 Thing 26
-ID # = 21
-Initial frame = 875
-Hit points = 1000
-Injury frame = 0
-Pain chance = 0
-Pain sound = 0
-Death frame = 0
-Death sound = 0
-Width = 1310720
-Mass = 100
-Bits = 1
+ID # = -1
 
 Thing 27
-ID # = 30
-Initial frame = 875
-First moving frame = 0
-Height = 1048576
-Bits = 1
+ID # = -1
 
 Thing 28
-ID # = 36
-Initial frame = 877
-Height = 1048576
-Bits = 1
+ID # = -1
 
 Thing 31
 ID # = 44
@@ -292,33 +97,19 @@ Thing 45
 ID # = 31
 
 Thing 46
-ID # = 38
-Initial frame = 906
-Width = 1048576
-Bits = 2
+ID # = -1
 
 Thing 47
-ID # = 24
-Initial frame = 904
-Height = 4456448
-Bits = 768
+ID # = -1
 
 Thing 48
-ID # = 26
-Initial frame = 904
-Height = 4456448
-Bits = 768
+ID # = -1
 
 Thing 49
-ID # = 25
-Initial frame = 904
-Height = 4456448
-Bits = 768
+ID # = -1
 
 Thing 50
-ID # = 28
-Initial frame = 45
-Bits = 0
+ID # = -1
 
 Thing 51
 ID # = 80
@@ -357,9 +148,7 @@ Thing 62
 ID # = 33
 
 Thing 63
-ID # = 39
-Initial frame = 45
-Bits = 0
+ID # = -1
 
 Thing 64
 ID # = 10
@@ -392,62 +181,48 @@ Thing 74
 ID # = 53
 
 Thing 79
-ID # = 40
-Initial frame = 45
-Bits = 0
+ID # = -1
 
 Thing 80
-ID # = 41
-Initial frame = 45
-Bits = 0
+ID # = -1
 
 Thing 81
-ID # = 42
-Initial frame = 45
-Bits = 0
+ID # = -1
 
 Thing 82
-ID # = 43
-Initial frame = 45
-Bits = 0
+ID # = -1
 
 Thing 83
-ID # = 48
-Initial frame = 45
-Bits = 0
+ID # = -1
 
 Thing 84
 ID # = 47
 
 Thing 85
-ID # = 49
-Initial frame = 45
-Bits = 0
+ID # = -1
 
 Thing 86
 ID # = 29
 
 Thing 87
-ID # = 52
-Initial frame = 45
-Bits = 0
+ID # = -1
 
 Thing 88
-ID # = 56
-Initial frame = 45
+ID # = 2035
+Initial frame = 896
 Bits = 0
 
 Thing 89
-ID # = 74
-Initial frame = 45
+ID # = 1209
+Initial frame = 896
 Bits = 0
 
 Thing 90
 ID # = 76
 
 Thing 91
-ID # = 87
-Initial frame = 45
+ID # = 1208
+Initial frame = 896
 Bits = 0
 
 Thing 92
@@ -460,13 +235,13 @@ Thing 94
 ID # = 96
 
 Thing 95
-ID # = 1200
-Initial frame = 45
+ID # = 1207
+Initial frame = 896
 Bits = 0
 
 Thing 96
-ID # = 1201
-Initial frame = 45
+ID # = 1206
+Initial frame = 896
 Bits = 0
 
 Thing 97
@@ -477,141 +252,304 @@ ID # = 37
 Initial frame = 887
 
 Thing 99
-ID # = 1202
-Initial frame = 45
+ID # = 1205
+Initial frame = 896
 Bits = 0
 
 Thing 100
-ID # = 1203
-Initial frame = 45
+ID # = 1204
+Initial frame = 896
 
 Thing 101
 ID # = 27
 
 Thing 102
-ID # = 1204
-Initial frame = 45
+ID # = 1203
+Initial frame = 896
 Bits = 0
 
 Thing 103
-ID # = 1205
-Initial frame = 45
+ID # = 1202
+Initial frame = 896
 Bits = 0
 
 Thing 104
-ID # = 1206
-Initial frame = 45
+ID # = 1201
+Initial frame = 896
 Bits = 0
 
 Thing 105
-ID # = 1207
-Initial frame = 45
+ID # = 1200
+Initial frame = 896
 Bits = 0
 
 Thing 106
-ID # = 1208
-Initial frame = 45
+ID # = 87
+Initial frame = 896
 Bits = 0
 
 Thing 107
-ID # = 1209
-Initial frame = 45
+ID # = 74
+Initial frame = 896
 Bits = 0
 
 Thing 108
 ID # = 17
 
 Thing 109
-ID # = 2035
-Initial frame = 45
+ID # = 56
+Initial frame = 896
 Bits = 0
 
 Thing 110
-ID # = -1
+ID # = 52
+Initial frame = 896
+Bits = 0
 
 Thing 111
 ID # = 51
 
 Thing 112
-ID # = -1
+ID # = 49
+Initial frame = 896
 
 Thing 113
-ID # = -1
+ID # = 48
+Initial frame = 896
 
 Thing 114
-ID # = -1
+ID # = 43
+Initial frame = 896
 
 Thing 115
-ID # = -1
+ID # = 42
+Initial frame = 896
 
 Thing 116
-ID # = -1
+ID # = 41
+Initial frame = 896
 
 Thing 117
-ID # = -1
+ID # = 40
+Initial frame = 896
 
 Thing 118
-ID # = -1
+ID # = 39
+Initial frame = 896
 
 Thing 119
-ID # = -1
+ID # = 28
+Initial frame = 896
 
 Thing 120
-ID # = -1
+ID # = 25
+Initial frame = 904
+Height = 4456448
+Bits = 768
 
 Thing 121
-ID # = -1
+ID # = 26
+Initial frame = 904
+Width = 1310720
+Height = 4456448
+Bits = 768
 
 Thing 122
-ID # = -1
+Initial frame = 904
+Height = 4456448
+Bits = 768
 
 Thing 123
-ID # = -1
+ID # = 38
+Initial frame = 906
 
 Thing 124
-ID # = -1
+ID # = 36
+Initial frame = 877
+Width = 1310720
+Bits = 1
 
 Thing 125
-ID # = -1
+ID # = 30
+Initial frame = 875
+Width = 1310720
+Bits = 1
 
 Thing 126
-ID # = -1
+ID # = 21
+Initial frame = 875
+Width = 1310720
+Bits = 1
 
 Thing 127
-ID # = -1
+ID # = 20
+Initial frame = 874
+Width = 1310720
+Bits = 1
 
 Thing 128
-ID # = -1
+ID # = 34
+Initial frame = 872
+Width = 1310720
+Bits = 1
 
 Thing 129
-ID # = -1
+ID # = 55
+Initial frame = 871
+Width = 1310720
+Height = 1048576
+Bits = 1
 
 Thing 130
-ID # = -1
+ID # = 54
+Initial frame = 870
+Width = 1310720
+Height = 1048576
+Bits = 1
 
 Thing 131
-ID # = -1
+ID # = 66
+Initial frame = 585
+Hit points = 40
+First moving frame = 587
+Attack sound = 51
+Injury frame = 593
+Pain chance = 256
+Pain sound = 26
+Far attack frame = 589
+Death frame = 595
+Death sound = 17
+Speed = 8
+Height = 3670016
+Mass = 50
+Missile damage = 1
+Action sound = 77
+Bits = 16902
 
 Thing 132
-ID # = -1
+ID # = 15
+Initial frame = 502
+Hit points = 180
+First moving frame = 503
+Alert sound = 42
+Injury frame = 507
+Pain chance = 128
+Pain sound = 26
+Far attack frame = 504
+Death frame = 510
+Death sound = 65
+Speed = 8
+Height = 3670016
+Mass = 400
+Action sound = 77
+Bits = 4211206
+Respawn frame = 516
 
 Thing 133
-ID # = -1
+ID # = 70
+Initial frame = 442
+Hit points = 220
+First moving frame = 444
+Alert sound = 39
+Injury frame = 455
+Pain chance = 200
+Pain sound = 27
+Close attack frame = 452
+Far attack frame = 452
+Death frame = 457
+Exploding frame = 462
+Death sound = 62
+Speed = 8
+Width = 2097152
+Height = 3670016
+Action sound = 76
+Bits = 4194310
+Respawn frame = 470
 
 Thing 134
-ID # = -1
+ID # = 92
+Initial frame = 442
+Hit points = 280
+First moving frame = 444
+Alert sound = 39
+Injury frame = 455
+Pain chance = 200
+Pain sound = 27
+Close attack frame = 452
+Far attack frame = 452
+Death frame = 457
+Exploding frame = 462
+Death sound = 62
+Speed = 8
+Width = 1441792
+Height = 3670016
+Action sound = 76
+Bits = 4194310
+Respawn frame = 470
 
 Thing 135
-ID # = -1
+ID # = 65
+Initial frame = 442
+Hit points = 200
+First moving frame = 444
+Alert sound = 39
+Injury frame = 455
+Pain chance = 200
+Pain sound = 27
+Close attack frame = 452
+Far attack frame = 452
+Death frame = 457
+Exploding frame = 462
+Death sound = 62
+Speed = 8
+Width = 1572864
+Height = 3670016
+Action sound = 76
+Bits = 4456454
+Respawn frame = 470
 
 Thing 136
-ID # = -1
+ID # = 46
+Initial frame = 207
+Hit points = 100
+First moving frame = 209
+Alert sound = 37
+Injury frame = 220
+Pain chance = 170
+Pain sound = 27
+Far attack frame = 217
+Death frame = 222
+Exploding frame = 227
+Death sound = 60
+Speed = 8
+Width = 1441792
+Height = 3670016
+Action sound = 75
+Bits = 4456454
+Respawn frame = 236
 
 Thing 137
-ID # = -1
+ID # = 69
+Initial frame = 174
+Hit points = 80
+First moving frame = 176
+Alert sound = 36
+Attack sound = 1
+Injury frame = 187
+Pain chance = 200
+Pain sound = 27
+Far attack frame = 184
+Death frame = 189
+Exploding frame = 194
+Death sound = 59
+Speed = 8
+Width = 1441792
+Height = 3670016
+Action sound = 75
+Bits = 4456454
+Respawn frame = 203
 
-Frame 45
+Frame 896
 Sprite number = 26
 Sprite subnumber = 6
 Duration = 1
-Next frame = 0

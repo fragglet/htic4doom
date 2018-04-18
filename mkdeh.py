@@ -302,8 +302,8 @@ for heretic, vals in heretic_to_doom.items():
 
 # Identify all objects with a doomednum (ie. can be placed via the editor).
 # This is our working space of objects we will change.
-placeable_objects = {mobjtype for mobjtype, mobj in enumerate(mobjinfo)
-                     if mobj.doomednum >= 0}
+placeable_objects = [mobjtype for mobjtype, mobj in enumerate(mobjinfo)
+                     if mobj.doomednum >= 0]
 
 # We need to assign Heretic objects to Doom ones, but in some cases multiple
 # Heretic objects map to the same Doom object. We want to keep affinity so
@@ -320,11 +320,22 @@ for doom, heretics in doom_to_heretics.items():
 	heretics.remove(heretic)
 	placeable_objects.remove(doom)
 
-# Now do a second pass assigning all remaining suplicates.
+def non_monster_object():
+	"""Returns an object from placeable_objects that is not a monster."""
+	while True:
+		mobjnum = placeable_objects.pop()
+		if (mobjinfo[mobjnum].flags & MF_COUNTKILL) == 0:
+			return mobjnum
+		# placeable_objects is treated as a circular buffer; keep
+		# popping objects and rolling them round to the beginning
+		# until we find one we can use.
+		placeable_objects.insert(0, mobjnum)
+
+# Now do a second pass assigning all remaining duplicates.
 for doom, heretics in doom_to_heretics.items():
 	for heretic in heretics:
 		_, overrides = heretic_to_doom[heretic]
-		mobjnum = placeable_objects.pop()
+		mobjnum = non_monster_object()
 		mobjinfo[mobjnum].copy_from(mobjinfo[doom].original)
 		mobjinfo[mobjnum].update(overrides)
 		mobjinfo[mobjnum].doomednum = heretic
