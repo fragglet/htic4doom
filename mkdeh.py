@@ -127,8 +127,8 @@ heretic_to_doom = {
 	44: replacement(MT_BARREL),
 	# Brown pillar -> Short green pillar:
 	47: replacement(sprite_to_mobj(SPR_COL2)),
-	# Serpent Torch -> Candelabra:
-	27: replacement(sprite_to_mobj(SPR_CBRA)),
+	# Serpent Torch -> Tech lamp:
+	27: replacement(sprite_to_mobj(SPR_COLU)),
 	# Candelabra -> delete (we have no equivalent):
 	28: None,
 	# Fire brazier -> Skull pillar:
@@ -138,10 +138,10 @@ heretic_to_doom = {
 	# TODO: Match these to remapped key colors.
 	# Blue key statue -> Tall blue fire stick:
 	94: replacement(sprite_to_mobj(SPR_TBLU)),
-	# Green key statue -> Tall green fire stick:
-	95: replacement(sprite_to_mobj(SPR_TGRN)),
-	# Yellow key statue -> Tall red fire stick:
-	96: replacement(sprite_to_mobj(SPR_TRED)),
+	# Green key statue -> Tall red fire stick:
+	95: replacement(sprite_to_mobj(SPR_TRED)),
+	# Yellow key statue -> Yellow candelabra:
+	96: replacement(sprite_to_mobj(SPR_CBRA)),
 	# Hanging moss sprites:
 	48: None,
 	49: None,
