@@ -129,9 +129,9 @@ SKULLSB2    		128	128
 *       FLAMP           19      18
 ; Doom's SKY1:
 SKY1        		256	128
-*       SKY1            0       -8
+*       SKY1            0       0
 SKY5        		256	128
-*       SKY1            0       -8
+*       SKY1            0       0
 ; STARBR2 looks quite sandy:
 SNDBLCKS    		128	128
 *       SW15_4          0       0
