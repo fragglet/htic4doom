@@ -3,7 +3,12 @@ Heretic in many ways a reskin of Doom. Many technical details are
 linedef and sector types. With this in mind, this project is a hack to
 see if Heretic levels can be made loadable and playable with `doom.wad`.
 
+![Apostate E3M1 - Heretic](sshots/apostate-e3m1-heretic.png) ![Apostate E3M1 - Doom](sshots/apostate-e3m1-doom.png)
+
 The main components are:
+
+* Dehacked patch that maps all Heretic thing types into equivalent thing
+  types found in Doom.
 
 * Replacement `TEXTURE1`/`TEXTURE2` lumps. These aim to recreate
   compatible versions of Heretic's wall textures using Doom's texture
@@ -17,9 +22,6 @@ The main components are:
 * `ANIMATED` and `SWITCHES` lump, so that Heretic's switches and
   animated textures will animate as intended in Boom-compatible source
   ports.
-
-* Dehacked patch that maps all Heretic thing types into equivalent thing
-  types found in Doom.
 
 ### Limitations
 
