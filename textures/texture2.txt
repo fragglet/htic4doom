@@ -127,9 +127,9 @@ LAVAFL3     		64	128
 *       W73B_1          0       72
 *       W73A_1          0       96
 *       W73A_2          0       120
-; From SP_ROCK2:
-LOOSERCK    		64	128
-*       WALL63_2        0       0
+; From SP_ROCK1; expanded to 128 wide:
+LOOSERCK    		128	128
+*       WALL63_1        0       0
 ; Tile mosaic textures. For now these are just COMPBLUE.
 MOSAIC1     		64	128
 *       COMP03_1        0       0
